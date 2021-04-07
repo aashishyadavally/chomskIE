@@ -1,0 +1,17 @@
+name: chomskIE
+
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+
+dependencies:
+  # Core stack
+  - python>=3.7
+  - nltk
+  - spacy
+  - numpy
+
+  # Visualization stack
+  - matplotlib
+  - jupyter
