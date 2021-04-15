@@ -1,8 +1,8 @@
 from chomskIE.utils import PipelineError
-from chomskIE.preprocess.base import Preprocesser
+from chomskIE.preprocess.base import Preprocessor
 
 
-class SentenceRecognizer(Preprocesser):
+class SentenceRecognizer(Preprocessor):
     """Pipeline component for sentence segmentation.
 
     Parameters:
@@ -23,7 +23,7 @@ class SentenceRecognizer(Preprocesser):
         """
         self._name = 'sent'
         self.model = model
-        self.model.add_pipe(self.model.create_pipe('sentencizer'))
+        # self.model.add_pipe('sentencizer', before='parser')
 
     @property
     def name(self):
@@ -53,7 +53,7 @@ class SentenceRecognizer(Preprocesser):
         return doc
 
 
-class WordTokenizer(Preprocesser):
+class WordTokenizer(Preprocessor):
     """Pipeline component for word tokenization.
 
     Parameters:
@@ -101,6 +101,60 @@ class WordTokenizer(Preprocesser):
                 raise PipelineError(error_msg)
             tokens = [token.text for token in self.model(sent)]
             doc_sents[index][self.name] = tokens
+
+        doc.sents = doc_sents
+        return doc
+
+
+
+class Lemmatizer(Preprocessor):
+    """Pipeline component for word tokenization.
+
+    Parameters:
+        model (spacy.lang):
+            Trained SpaCy language pipeline.
+
+    Properties:
+        name (str):
+            Key to identify preprocessing step output in
+            `chomskIE.utils.Document.sents`.  
+    """
+    def __init__(self, model):
+        """Initializes :class: `Lemmatizer`.
+
+        Arguments:
+            model (spacy.lang):
+                Trained SpaCy language pipeline.
+        """
+        self._name = 'lemmas'
+        self.model = model
+
+    @property
+    def name(self):
+        return self._name
+
+    def transform(self, doc):
+        """Apply the preprocessing technique of subclass to single document.
+
+        Arguments:
+            doc (chomskIE.utils.Document):
+                Document to apply preprocessing.
+
+        Returns:
+            doc (chomskIE.utils.Document):
+                Processed document.
+        """
+        self._validate_input(doc, True)
+        doc_sents = doc.sents
+
+        for index, doc_sent in enumerate(doc_sents):
+            if 'sent' in doc_sent:
+                sent = doc_sent['sent']
+            else:
+                error_msg = 'Sequence of pre-processing steps is incorrect.'
+                raise PipelineError(error_msg)
+            lemmas = [token.lemma_ for token in self.model(sent)]
+            doc_sents[index][self.name] = lemmas
 
         doc.sents = doc_sents
         return doc

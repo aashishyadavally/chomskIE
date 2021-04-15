@@ -16,11 +16,11 @@ def retrieve_spacy_language(lang):
             Trained SpaCy language pipeline.
     """
     try:
-        spacy.load(lang)
+        model = spacy.load(lang)
     except:
         subprocess.call(f'python -m spacy download {lang}', shell=True)
-
-    model = spacy.load(lang)
+        model = spacy.load(lang)
+        
     return model
 
 
@@ -50,10 +50,11 @@ def validate_input(pipe, input, transform):
         if not isinstance(input, Document):
             valid = False
 
-    if valid:
-        return valid
-    else:
+    if not valid:
         raise InputError(pipe)
+    
+    return valid
+        
 
 
 class InputError(Exception):
@@ -117,3 +118,7 @@ class Document:
         # ]
         self.processed = False
         self.sents = None
+
+        
+def usefulness(doc):
+    pass

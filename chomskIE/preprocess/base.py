@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 from chomskIE.utils import validate_input
 
 
-class Preprocesser(ABC):
+class Preprocessor(ABC):
     """An abstract base class for all preprocessing techniques.
     """
     @property
@@ -51,7 +51,7 @@ class Preprocesser(ABC):
         return is_valid
 
     @abstractmethod
-    def transform(self):
+    def transform(self, doc):
         """Apply the preprocessing technique of subclass to single document.
         """
         pass

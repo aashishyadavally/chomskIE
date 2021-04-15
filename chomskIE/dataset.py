@@ -1,4 +1,6 @@
 from pathlib import Path
+import ftfy
+from itertools import chain
 
 from chomskIE.utils import Document
 
@@ -31,9 +33,7 @@ class Loader:
         """
         cond = path.exists() if is_directory else path.is_file()
 
-        if cond:
-            return True
-        return False
+        return cond
 
     def load_from_path(self, path):
         """Loads all .txt files from `path`.
@@ -45,12 +45,16 @@ class Loader:
             docs (list of chomskIE.utils.Document objects)
                 List of documents corresponding to .txt files in `path`.
         """
-        if self._validate_data_path(path, is_directory=True):
-            text_files = list(path.glob('*.txt'))
-            docs = [self.load(text_file) for text_file in text_files]
-            return docs
-        else:
+        if not self._validate_data_path(path, is_directory=True):
             raise PathError(f'{path} is not a valid data directory path.')
+
+        text_files = list(path.glob('*.txt'))
+        file_docs = [self.load(text_file) for text_file in text_files]
+        docs = list(chain.from_iterable(file_docs))
+        return docs
+    
+    
+            
 
     def load(self, path_to_file):
         """Loads .txt file from `path_to_file`.
@@ -63,11 +67,21 @@ class Loader:
             doc (chomskIE.utils.Document)
                 Document object corresponding to .txt file in `path_to_file`.
         """
-        if self._validate_data_path(path_to_file, is_directory=False):
-            with open(path_to_file, 'r', encoding='iso-8859-15') as text_obj:
-                name = str(path_to_file).split('/')[-1]
-                text = text_obj.read()
-                doc = Document(name=name, text=text)
-                return doc
-        else:
+        if not self._validate_data_path(path_to_file, is_directory=False):
             raise PathError(f'{path_to_file} is not a valid file path.')
+            
+        try:
+            text_obj = open(path_to_file, 'r')
+            text = text_obj.read()
+        except UnicodeDecodeError:
+            text_obj = open(path_to_file, 'rb')
+            text, _ = ftfy.guess_bytes(text_obj.read())
+        
+        text = ftfy.ftfy(text)
+        name = str(path_to_file).split('/')[-1]
+        
+        paragraphs = [p.strip() for p in text.splitlines() if p]
+        docs = [Document(name="%s[%d]"%(name, i), text=p) for i, p in enumerate(paragraphs)]
+        return docs
+    
+            
