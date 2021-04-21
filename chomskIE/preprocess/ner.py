@@ -49,13 +49,9 @@ class NamedEntityRecognizer(Preprocessor):
                 error_msg = 'Sequence of pre-processing steps is incorrect.'
                 raise PipelineError(error_msg)
 
-            if hasattr(doc, 'model_sents'):
-                model_sent = doc.model_sents[index]
-            else:
-                model_sent = self.model(sent)
+            model_sent = self._retrieve_model_sent(doc, index)
 
-            entities = [(entity.text, entity.label_)\
-                        for entity in model_sent.ents]
+            entities = [(entity.text, entity.label_) for entity in model_sent.ents]
             doc_sents[index][self.name] = entities
 
         doc.sents = doc_sents

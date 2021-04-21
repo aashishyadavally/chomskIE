@@ -4,7 +4,7 @@ from chomskIE.preprocess.base import Preprocessor
 
 class ModelTransformer(Preprocessor):
     """Pipeline component for transforming a sentence based
-    on trained SpaCy langugae model.
+    on trained SpaCy language model.
 
     It should be defined in the pipeline after
     ``chomskIE.preprocess.SentenceRecognizer``.

@@ -50,6 +50,28 @@ class Preprocessor(ABC):
                                   transform=transform)
         return is_valid
 
+    def _retrieve_model_sent(self, doc, index):
+        """If SpaCy language-model based transformation is part of pipeline,
+        retrieves corresponding transformation of sentence.
+        Otherwise, performs language-model transformation.
+
+        Arguments:
+            doc (chomskIE.utils.Document):
+                Document to apply preprocessing.
+
+            index (int):
+                Sentence index in document.
+
+        Returns:
+            model_sent (spacy.tokens.doc.Doc):
+                Language-model based transformed sentence.
+        """
+        if hasattr(doc, 'model_sents'):
+            model_sent = doc.model_sents[index]
+        else:
+            model_sent = self.model(sent)
+        return model_sent
+
     @abstractmethod
     def transform(self, doc):
         """Apply the preprocessing technique of subclass to single document.

@@ -49,10 +49,7 @@ class PartOfSpeechTagger(Preprocessor):
                 error_msg = 'Sequence of pre-processing steps is incorrect.'
                 raise PipelineError(error_msg)
 
-            if hasattr(doc, 'model_sents'):
-                model_sent = doc.model_sents[index]
-            else:
-                model_sent = self.model(sent)
+            model_sent = self._retrieve_model_sent(doc, index)
 
             tags = [(token.pos_, token.tag_) for token in model_sent]
             doc_sents[index][self.name] = tags
