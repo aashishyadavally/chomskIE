@@ -14,7 +14,9 @@ TRANSFORM = False
 PIPELINE = [
     SentenceRecognizer,
     WordTokenizer,
+    Lemmatizer,
     PartOfSpeechTagger,
+    NamedEntityRecognizer,
 ]
 
 
