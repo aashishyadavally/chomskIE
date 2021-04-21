@@ -2,8 +2,12 @@ from chomskIE.utils import PipelineError
 from chomskIE.preprocess.base import Preprocessor
 
 
-class NamedEntityRecognizer(Preprocessor):
-    """Pipeline component for named entity recognizer.
+class ModelTransformer(Preprocessor):
+    """Pipeline component for transforming a sentence based
+    on trained SpaCy langugae model.
+
+    It should be defined in the pipeline after
+    ``chomskIE.preprocess.SentenceRecognizer``.
 
     Parameters:
         model (spacy.lang):
@@ -15,13 +19,13 @@ class NamedEntityRecognizer(Preprocessor):
             `chomskIE.utils.Document.sents`.  
     """
     def __init__(self, model):
-        """Initializes :class: `NamedEntityRecognizer`.
+        """Initializes :class: `ModelTransformer`.
 
         Arguments:
             model (spacy.lang):
                 Trained SpaCy language pipeline.
         """
-        self._name = 'named_entities'
+        self._name = 'model_sents'
         self.model = model
 
     @property
@@ -29,11 +33,11 @@ class NamedEntityRecognizer(Preprocessor):
         return self._name
 
     def transform(self, doc):
-        """Apply the preprocessing technique of subclass to single document.
+        """Apply the model transformation to single document.
 
         Arguments:
             doc (chomskIE.utils.Document):
-                Document to apply preprocessing.
+                Document to transform.
 
         Returns:
             doc (chomskIE.utils.Document):
@@ -41,6 +45,7 @@ class NamedEntityRecognizer(Preprocessor):
         """
         self._validate_input(doc, True)
         doc_sents = doc.sents
+        model_sents = []
 
         for index, doc_sent in enumerate(doc_sents):
             if 'sent' in doc_sent:
@@ -48,16 +53,8 @@ class NamedEntityRecognizer(Preprocessor):
             else:
                 error_msg = 'Sequence of pre-processing steps is incorrect.'
                 raise PipelineError(error_msg)
+            model_sents.append(self.model(sent))
 
-            if hasattr(doc, 'model_sents'):
-                model_sent = doc.model_sents[index]
-            else:
-                model_sent = self.model(sent)
-
-            entities = [(entity.text, entity.label_)\
-                        for entity in model_sent.ents]
-            doc_sents[index][self.name] = entities
-
-        doc.sents = doc_sents
+        setattr(doc, self.name, model_sents)
         return doc
     

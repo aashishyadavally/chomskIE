@@ -13,10 +13,12 @@ TRANSFORM = False
 
 PIPELINE = [
     SentenceRecognizer,
+    ModelTransformer,
     WordTokenizer,
     Lemmatizer,
     PartOfSpeechTagger,
     NamedEntityRecognizer,
+    DependencyParser,
 ]
 
 
@@ -26,16 +28,17 @@ if __name__ == '__main__':
     if not TRANSFORM:
         docs = data_loader.load_from_path(DATA_PATH)
         for Pipe in PIPELINE:
-            pipe = Pipe(english_model)
-            docs = pipe(docs)
+            docs = Pipe(english_model)(docs)
 
         for doc in docs:
             doc.processed = True
+            delattr(doc, 'model_sents')
             print(doc.sents)
 
     else:
         doc = data_loader.load(DATA_PATH)
         for Pipe in self.args:
-            pipe = Pipe(english_model)
-            doc = pipe.transform(doc)
+            doc = Pipe(english_model).transform(doc)
+
         doc.processed = True
+        delattr(doc, 'model_sents')

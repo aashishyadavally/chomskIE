@@ -101,12 +101,17 @@ class WordTokenizer(Preprocessor):
             else:
                 error_msg = 'Sequence of pre-processing steps is incorrect.'
                 raise PipelineError(error_msg)
-            tokens = [token.text for token in self.model(sent)]
+
+            if hasattr(doc, 'model_sents'):
+                model_sent = doc.model_sents[index]
+            else:
+                model_sent = self.model(sent)
+
+            tokens = [token.text for token in model_sent]
             doc_sents[index][self.name] = tokens
 
         doc.sents = doc_sents
         return doc
-
 
 
 class Lemmatizer(Preprocessor):
@@ -155,7 +160,13 @@ class Lemmatizer(Preprocessor):
             else:
                 error_msg = 'Sequence of pre-processing steps is incorrect.'
                 raise PipelineError(error_msg)
-            lemmas = [token.lemma_ for token in self.model(sent)]
+
+            if hasattr(doc, 'model_sents'):
+                model_sent = doc.model_sents[index]
+            else:
+                model_sent = self.model(sent)
+
+            lemmas = [token.lemma_ for token in model_sent]
             doc_sents[index][self.name] = lemmas
 
         doc.sents = doc_sents
