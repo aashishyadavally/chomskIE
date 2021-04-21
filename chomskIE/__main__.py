@@ -7,13 +7,14 @@ from chomskIE.preprocess import *
 
 LANGUAGE = 'en_core_web_sm'
 
-DATA_PATH = Path('/home/aashish/Desktop/raw')
+DATA_PATH = Path('/home/aashish/Github/chomskIE/assets/data/raw')
 
 TRANSFORM = False
 
 PIPELINE = [
     SentenceRecognizer,
     WordTokenizer,
+    PartOfSpeechTagger,
 ]
 
 
@@ -28,6 +29,7 @@ if __name__ == '__main__':
 
         for doc in docs:
             doc.processed = True
+            print(doc.sents)
 
     else:
         doc = data_loader.load(DATA_PATH)

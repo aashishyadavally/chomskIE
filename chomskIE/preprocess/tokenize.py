@@ -23,7 +23,8 @@ class SentenceRecognizer(Preprocessor):
         """
         self._name = 'sent'
         self.model = model
-        # self.model.add_pipe('sentencizer', before='parser')
+        self.model.add_pipe(self.model.create_pipe('sentencizer'),
+                            before='parser')
 
     @property
     def name(self):
@@ -41,7 +42,8 @@ class SentenceRecognizer(Preprocessor):
                 Processed document.
         """
         self._validate_input(doc, True)
-        sents = list(self.model(doc.text).sents)
+        sents = [sent.text for paragraph in doc.paragraphs \
+                 for sent in self.model(paragraph).sents]
 
         if not doc.processed:
             doc_sents = [{} for _ in range(len(sents))]

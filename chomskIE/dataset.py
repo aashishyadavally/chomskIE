@@ -49,11 +49,8 @@ class Loader:
             raise PathError(f'{path} is not a valid data directory path.')
 
         text_files = list(path.glob('*.txt'))
-        file_docs = [self.load(text_file) for text_file in text_files]
-        docs = list(chain.from_iterable(file_docs))
+        docs = [self.load(text_file) for text_file in text_files]
         return docs
-    
-    
             
 
     def load(self, path_to_file):
@@ -79,9 +76,7 @@ class Loader:
         
         text = ftfy.ftfy(text)
         name = str(path_to_file).split('/')[-1]
-        
         paragraphs = [p.strip() for p in text.splitlines() if p]
-        docs = [Document(name="%s[%d]"%(name, i), text=p) for i, p in enumerate(paragraphs)]
-        return docs
-    
-            
+
+        doc = Document(name=name, text=text, paragraphs=paragraphs)
+        return doc

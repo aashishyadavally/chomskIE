@@ -95,7 +95,7 @@ class Document:
             Created following the instantiation of the preprocessing steps
             in the pipeline.
     """
-    def __init__(self, name, text):
+    def __init__(self, name, text, paragraphs):
         """Initializes :class: `Document`.
 
         Arguments:
@@ -103,9 +103,12 @@ class Document:
                 Name of .txt file.
             text (str):
                 Contents of .txt file.
+            paragraphs (list):
+            	Array of paragraphs in the .txt file.
         """
         self.name = name
         self.text = text
+        self.paragraphs = paragraphs
         # Document is considered to not have been processed when
         # created. Following the instantiated pre-processing steps,
         # `sents` class variable is modified. The following code
