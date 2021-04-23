@@ -1,4 +1,5 @@
 import subprocess
+from collections import Counter
 
 import spacy
 
@@ -123,5 +124,38 @@ class Document:
         self.sents = None
 
         
-def usefulness(doc):
-    pass
+def filter_invalid_sents(doc):
+    """Helps filter invalid sentences in document which are incomplete
+    and do not express complete thought such as bullet points.
+
+    Arguments:
+        doc (chomskIE.utils.Document):
+            Document.
+
+    Returns:
+        doc (chomskIE.utils.Document):
+            Filtered document.
+
+    Notes:
+    A complete sentence contains at least one subject, one predicate,
+    one object, and closes with punctuation. Subject and object are
+    almost always nouns, and the predicate is always a verb. Thus you
+    need to check if your sentence contains two nouns, one verb and
+    closes with punctuation.
+
+    References:
+    [1] https://stackoverflow.com/questions/50454857/determine-if-a-text-extract-from-spacy-is-a-complete-sentence
+    """
+    def is_valid(sent):
+        tag_counts = Counter([pos[0] for pos in sent['pos_tags']])
+        num_subjects = tag_counts['NOUN'] + tag_counts['PROPN'] \
+                       + tag_counts['PRON']
+        num_predicates = tag_counts['VERB'] + tag_counts['AUX']
+        complete = (num_subjects >= 1 and num_predicates >= 1)
+        valid = complete and num_subjects > 1
+        return valid
+
+    doc_sents = [sent for sent in doc.sents if is_valid(sent)]
+    doc.sents = doc_sents
+
+    return doc

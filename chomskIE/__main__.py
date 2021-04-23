@@ -1,7 +1,7 @@
 from pathlib import Path
 
 from chomskIE.dataset import Loader
-from chomskIE.utils import retrieve_spacy_language
+from chomskIE.utils import retrieve_spacy_language, filter_invalid_sents
 from chomskIE.preprocess import *
 
 
@@ -33,6 +33,7 @@ if __name__ == '__main__':
         for doc in docs:
             doc.processed = True
             delattr(doc, 'model_sents')
+            doc = filter_invalid_sents(doc)
             print(doc.sents)
 
     else:
@@ -42,3 +43,4 @@ if __name__ == '__main__':
 
         doc.processed = True
         delattr(doc, 'model_sents')
+        doc = filter_invalid_sents(doc)
