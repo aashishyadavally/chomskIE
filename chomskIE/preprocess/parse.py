@@ -2,6 +2,16 @@ from chomskIE.utils import PipelineError
 from chomskIE.preprocess.base import Preprocessor
 
 
+class DependencyToken:
+    def __init__(self, dep, head, head_pos, token):
+        """
+        """
+        self.dep = dep
+        self.head = head
+        self.head_pos = head_pos
+        self.token = token
+
+
 class DependencyParser(Preprocessor):
     """Pipeline component for dependency parsing.
 
@@ -51,7 +61,11 @@ class DependencyParser(Preprocessor):
 
             model_sent = self._retrieve_model_sent(doc, index)
 
-            dependencies = [token.dep_ for token in model_sent]
+            dependencies = [DependencyToken(
+                                token.dep_,
+                                token.head.text,
+                                token.head.pos_,
+                                token) for token in model_sent]
             doc_sents[index][self.name] = dependencies
 
         doc.sents = doc_sents
