@@ -3,6 +3,7 @@ from pathlib import Path
 from chomskIE.dataset import Loader
 from chomskIE.utils import retrieve_spacy_language, filter_invalid_sents
 from chomskIE.preprocess import *
+from chomskIE.extract.svotriples import VerbTemplateExtractor
 
 
 LANGUAGE = 'en_core_web_sm'
@@ -34,8 +35,11 @@ if __name__ == '__main__':
             doc.processed = True
             delattr(doc, 'model_sents')
             doc = filter_invalid_sents(doc)
-            print(doc.sents)
-
+            vte = VerbTemplateExtractor()
+            verb_templates = vte.extract(doc)
+            for verb, templates in verb_templates.items():
+                print(f'Verb: {verb}')
+                print(templates)
     else:
         doc = data_loader.load(DATA_PATH)
         for Pipe in self.args:
