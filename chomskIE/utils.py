@@ -16,13 +16,29 @@ def retrieve_spacy_language(lang):
         model (spacy.lang)
             Trained SpaCy language pipeline.
     """
-    try:
-        model = spacy.load(lang)
-    except:
+    if not spacy.util.is_package(lang):
         subprocess.call(f'python -m spacy download {lang}', shell=True)
-        model = spacy.load(lang)
-        
+
+    model = spacy.load(lang)
     return model
+
+
+def retrieve_wordnet():
+    """Retrieves Wordnet corpora from NLTK resources. If not already
+    exists, it is downloaded.
+
+    Returns:
+        (wordnet):
+            Wordnet resource.
+    """
+    try:
+        from nltk.corpus import wordnet
+    except:
+        import nltk
+        nltk.download('wordnet')
+        from nltk.corpus import wordnet
+
+    return wordnet
 
 
 def validate_input(pipe, input, transform):
@@ -55,7 +71,27 @@ def validate_input(pipe, input, transform):
         raise InputError(pipe)
     
     return valid
-        
+
+
+def train_dev_split(docs, dev_size):
+    """Split list of documents into train and dev sets.
+    Train set is a list of documents with each of the documents
+    containing random sentences from each document.
+    Dev set is a single document containing random sentences
+    from each document.
+
+    Arguments:
+        docs (list of chomskIE.utils.Document objects):
+            List of documents
+        dev_size (float or int):
+            If float, should be between 0.0 and 1.0.
+            If int, represents absolute number of sentences in each document.
+
+    Returns:
+        train, dev (list of chomskIE.utils.Document, chomskIE.utils.Document)
+            Tuple of train, dev sets of input.
+    """
+    pass
 
 
 class InputError(Exception):
