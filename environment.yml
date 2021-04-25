@@ -12,6 +12,7 @@ dependencies:
   - spacy
   - numpy
   - ftfy
+  - textacy==0.11.0
 
   # Visualization stack
   - matplotlib
