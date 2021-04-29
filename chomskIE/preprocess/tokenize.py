@@ -23,7 +23,6 @@ class SentenceRecognizer(Preprocessor):
         """
         self._name = 'sent'
         self.model = model
-        self.model.add_pipe('sentencizer', before='parser')
 
     @property
     def name(self):

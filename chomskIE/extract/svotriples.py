@@ -2,8 +2,8 @@ from collections import namedtuple, defaultdict
 from operator import attrgetter
 
 from textacy.extract.triples import expand_noun, expand_verb
-
 from spacy.symbols import *
+from itertools import chain
 
 
 # Categories of SpaCy dependency tags
@@ -24,6 +24,10 @@ class VerbTemplateExtractor:
 
     Template #2: ACQUIRE (ORGANIZATION, ORGANIZATION, DATE)
     """
+
+    def __init__(self, wordnet):
+        self.wordnet = wordnet
+
     def _filter_templates(self, verbs, triples):
         """Extract relevant subject-verb-object triples which
         contain the verb in ``verbs``.
@@ -53,7 +57,16 @@ class VerbTemplateExtractor:
     def _extract_verbs(self, verb):
         # TODO: Method to extract verbs similar to ``verb`` using Wordnet.
         # Note: chomskIE.utils contains method ``retrieve_wordnet``.
-        return [verb]
+        #return [verb]
+        if verb != 'born':
+            senses = self.wordnet.synsets(verb, pos=self.wordnet.VERB)
+            return set(chain.from_iterable([[name.replace('_', ' ') for name in sense.lemma_names()] for sense in senses]))
+        else:
+            verbs = ['born']
+            for v in ['founded', 'created']:
+                senses = self.wordnet.synsets(v, pos=self.wordnet.VERB)
+                verbs += list(chain.from_iterable([[name.replace('_', ' ') for name in sense.lemma_names()] for sense in senses]))
+            return set(verbs)
 
     def _retrieve_svo_triples(self, doc):
         """Retrieves subject-verb-object triples from sentences in
