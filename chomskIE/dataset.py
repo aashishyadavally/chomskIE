@@ -1,5 +1,6 @@
-from pathlib import Path
+import json
 import ftfy
+from pathlib import Path
 from itertools import chain
 
 from chomskIE.utils import Document
@@ -80,3 +81,64 @@ class Loader:
 
         doc = Document(name=name, text=text, paragraphs=paragraphs)
         return doc
+
+
+class Writer:
+    """Utility class to write extracted relations to JSON file.
+    """
+    def _validate_data_path(self, path):
+        """Checks if path to directory/file containing data is valid.
+
+        Arguments:
+            path (pathlib.Path):
+                Path to file or directory.
+
+        Returns:
+            (bool):
+                True, if `path` is a valid file or directory.
+                False, otherwise.
+        """
+        if path.exists() or path.is_file:
+            return True
+        else:
+            return False
+
+    def _populate_templates(self, docname, templates):
+        """
+        """
+        populated = []
+
+        for _id, template in templates.items():
+            for sent, triple in template:
+                _populated = {
+                    'template': _id,
+                    'sentences': sent,
+                    'arguments': {
+                        "1": triple.,
+                        "2": ,
+                        "3": ,
+                    },
+                }
+                populated.append(_populated)
+        return populated
+
+    def write(self, path, docname, templates):
+        """
+
+        Arguments:
+            path (pathlib.Path):
+
+            docname (str):
+
+            templates (list):
+
+        """
+        if not self._validate_data_path(path):
+            raise PathError(f'{path} is not a valid file path.')
+
+        with open(path, 'r+') as file:
+            file_data = json.load(file)
+            populated = self._populate_templates(docname, templates)
+#            output_dump = [file_data] + populated
+            output_dump = populated
+            json.dump(output_dump, file)

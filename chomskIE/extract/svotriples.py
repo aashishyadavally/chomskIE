@@ -1,9 +1,12 @@
-from collections import namedtuple, defaultdict
+from itertools import chain
 from operator import attrgetter
+from collections import namedtuple, defaultdict
+
+from spacy.symbols import *
 
 from textacy.extract.triples import expand_noun, expand_verb
-from spacy.symbols import *
-from itertools import chain
+
+from chomskIE.utils import retrieve_wordnet
 
 
 # Categories of SpaCy dependency tags
@@ -24,11 +27,13 @@ class VerbTemplateExtractor:
 
     Template #2: ACQUIRE (ORGANIZATION, ORGANIZATION, DATE)
     """
+    def _filter_on_ne(self, triples):
+        """
+        TO-DO: Implement according to templates.
+        """
+        return triples
 
-    def __init__(self, wordnet):
-        self.wordnet = wordnet
-
-    def _filter_templates(self, verbs, triples):
+    def _filter_on_verbs(self, verbs, triples):
         """Extract relevant subject-verb-object triples which
         contain the verb in ``verbs``.
 
@@ -55,112 +60,130 @@ class VerbTemplateExtractor:
         return relevant
 
     def _extract_verbs(self, verb):
-        # TODO: Method to extract verbs similar to ``verb`` using Wordnet.
-        # Note: chomskIE.utils contains method ``retrieve_wordnet``.
-        #return [verb]
-        if verb != 'born':
-            senses = self.wordnet.synsets(verb, pos=self.wordnet.VERB)
-            return set(chain.from_iterable([[name.replace('_', ' ') for name in sense.lemma_names()] for sense in senses]))
-        else:
-            verbs = ['born']
-            for v in ['founded', 'created']:
-                senses = self.wordnet.synsets(v, pos=self.wordnet.VERB)
-                verbs += list(chain.from_iterable([[name.replace('_', ' ') for name in sense.lemma_names()] for sense in senses]))
-            return set(verbs)
+        """Extract verbs similar to ``verb`` using Wordnet.
 
-    def _retrieve_svo_triples(self, doc):
-        """Retrieves subject-verb-object triples from sentences in
-        the document.
+        Arguments:
+            verb (str):
+                Verb
+
+        Returns:
+            (set):
+                Set of verbs similar to ``verb``.
+        """
+        if verb == 'born':
+            verbs_extra, verbs = [verb], ['founded', 'created']
+        else:
+            verbs_extra, verbs = [], [verb]
+
+        wordnet = retrieve_wordnet()
+
+        for verb in verbs:
+            senses = wordnet.synsets(verb, pos=wordnet.VERB)
+            verbs_extra += list(chain.from_iterable([[name.replace('_', ' ') \
+                          for name in sense.lemma_names()] for sense in senses]))
+        return set(verbs_extra)
+
+    def _retrieve_svo_triples(self, sent):
+        """Retrieves subject-verb-object triples from a sentence.
 
         ``textacy.extract.triples.subject_verb_object_triples``
         extended to retrieve subject-verb-object-triples from
         ``chomskIE.utils.Document``.
 
         Arguments:
-            doc (chomskIE.utils.Document):
-                Document.
+            sent (chomskIE.utils.Document):
+                Sentence in document.
 
-        Yields:
-            (SVOTriple):
-                Next SVO triple as (subject, verb, object) in order
+        Returns:
+            triples (list of SVOTriple objects):
+                List of SVO triple as (subject, verb, object) in order
                 of appearence, where each is a ``spacy.tokens.Token``
                 object.
         """
+        # Connect subjects/objects to direct verb heads and expand
+        # them to include conjuncts, compound nouns, etc.
+        dependency_tokens, triples = sent['dep'], []
+        verb_sos = defaultdict(lambda: defaultdict(set))
+
+        for dependency_token in dependency_tokens:
+            token = dependency_token.token
+            head = token.head
+
+            # Ensure entry for all verbs, even if empty, to catch conjugate
+            # verbs without direct subject/object deps
+            if token.pos == VERB:
+                _ = verb_sos[token]
+
+            # Nominal subject of active or passive verb
+            if token.dep in _NOMINAL_SUBJ_DEPS:
+                if head.pos == VERB:
+                    verb_sos[head]["subjects"].update(expand_noun(token))
+
+            # Clausal subject of active or passive verb
+            elif token.dep in _CLAUSAL_SUBJ_DEPS:
+                if head.pos == VERB:
+                    verb_sos[head]["subjects"].update(token.subtree)
+
+            # Nominal direct object of transitive verb
+            elif token.dep == dobj:
+                if head.pos == VERB:
+                    verb_sos[head]["objects"].update(expand_noun(token))
+
+            # Prepositional object acting as agent of passive verb
+            elif token.dep == pobj:
+                if head.dep == agent and head.head.pos == VERB:
+                    verb_sos[head.head]["objects"].update(expand_noun(token))
+
+            # Open clausal complement, but not as a secondary predicate
+            elif token.dep == xcomp:
+                if (
+                    head.pos == VERB
+                    and not any(child.dep == dobj for child in head.children)
+                ):
+                    verb_sos[head]["objects"].update(token.subtree)
+
+        # Fill in any indirect relationships connected via verb conjuncts
+        for verb, so_dict in verb_sos.items():
+            conjuncts = verb.conjuncts
+            if so_dict.get("subjects"):
+                for conj in conjuncts:
+                    conj_so_dict = verb_sos.get(conj)
+                    if conj_so_dict and not conj_so_dict.get("subjects"):
+                        conj_so_dict["subjects"].update(so_dict["subjects"])
+            if not so_dict.get("objects"):
+                so_dict["objects"].update(
+                    obj
+                    for conj in conjuncts
+                    for obj in verb_sos.get(conj, {}).get("objects", [])
+                )
+
+        # Expand verbs and restructure into ``SVOTriple`` objects.
+        for verb, so_dict in verb_sos.items():
+            if so_dict["subjects"] and so_dict["objects"]:
+                triples.append(
+                    SVOTriple(
+                        subject=sorted(so_dict["subjects"],
+                                       key=attrgetter("i")),
+                        verb=sorted(expand_verb(verb),
+                                    key=attrgetter("i")),
+                        object=sorted(so_dict["objects"],
+                                      key=attrgetter("i")),
+                    )
+                )
+        return triples
+
+    def extract(self, doc, verb):
+        """
+        """
+        templates = []
+
         for sent in doc.sents:
-            # Connect subjects/objects to direct verb heads and expand
-            # them to include conjuncts, compound nouns, etc.
-            dependency_tokens, sent_triples = sent['dep'], []
-            verb_sos = defaultdict(lambda: defaultdict(set))
-
-            for dependency_token in dependency_tokens:
-                token = dependency_token.token
-                head = token.head
-
-                # Ensure entry for all verbs, even if empty, to catch conjugate
-                # verbs without direct subject/object deps
-                if token.pos == VERB:
-                    _ = verb_sos[token]
-
-                # Nominal subject of active or passive verb
-                if token.dep in _NOMINAL_SUBJ_DEPS:
-                    if head.pos == VERB:
-                        verb_sos[head]["subjects"].update(expand_noun(token))
-
-                # Clausal subject of active or passive verb
-                elif token.dep in _CLAUSAL_SUBJ_DEPS:
-                    if head.pos == VERB:
-                        verb_sos[head]["subjects"].update(token.subtree)
-
-                # Nominal direct object of transitive verb
-                elif token.dep == dobj:
-                    if head.pos == VERB:
-                        verb_sos[head]["objects"].update(expand_noun(token))
-
-                # Prepositional object acting as agent of passive verb
-                elif token.dep == pobj:
-                    if head.dep == agent and head.head.pos == VERB:
-                        verb_sos[head.head]["objects"].update(expand_noun(token))
-
-                # Open clausal complement, but not as a secondary predicate
-                elif token.dep == xcomp:
-                    if (
-                        head.pos == VERB
-                        and not any(child.dep == dobj for child in head.children)
-                    ):
-                        verb_sos[head]["objects"].update(token.subtree)
-
-            # Fill in any indirect relationships connected via verb conjuncts
-            for verb, so_dict in verb_sos.items():
-                conjuncts = verb.conjuncts
-                if so_dict.get("subjects"):
-                    for conj in conjuncts:
-                        conj_so_dict = verb_sos.get(conj)
-                        if conj_so_dict and not conj_so_dict.get("subjects"):
-                            conj_so_dict["subjects"].update(so_dict["subjects"])
-                if not so_dict.get("objects"):
-                    so_dict["objects"].update(
-                        obj
-                        for conj in conjuncts
-                        for obj in verb_sos.get(conj, {}).get("objects", [])
-                    )
-
-            # Expand verbs and restructure into ``SVOTriple`` objects.
-            for verb, so_dict in verb_sos.items():
-                if so_dict["subjects"] and so_dict["objects"]:
-                    yield SVOTriple(
-                        subject=sorted(so_dict["subjects"], key=attrgetter("i")),
-                        verb=sorted(expand_verb(verb), key=attrgetter("i")),
-                        object=sorted(so_dict["objects"], key=attrgetter("i")),
-                    )
-
-    def extract(self, doc):
-        """
-        """
-        verb_templates = {}
-        svo_triples = list(self._retrieve_svo_triples(doc))
-
-        for verb in ['born', 'acquire']:
+            svo_triples = self._retrieve_svo_triples(sent)
             verbs = self._extract_verbs(verb)
-            relevant = self._filter_templates(verbs, svo_triples)
-            verb_templates[verb] = relevant
-        return verb_templates
+            svo_triples = self._filter_on_verbs(verbs, svo_triples)
+            svo_triples = self._filter_on_ne(svo_triples)
+
+            if svo_triples:
+                templates.append((sent['sent'], svo_triples))
+
+        return templates
