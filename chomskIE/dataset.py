@@ -98,47 +98,60 @@ class Writer:
                 True, if `path` is a valid file or directory.
                 False, otherwise.
         """
-        if path.exists() or path.is_file:
+        if path.exists() or path.is_file():
             return True
         else:
             return False
 
-    def _populate_templates(self, docname, templates):
+    def _populate_arguments(self, template):
+        """
+        """
+        args = {}
+        for _id, arg_id in enumerate(template._fields):
+            if template[_id] is not None:
+                args[f'{arg_id}'] = str(template[_id])
+            else:
+                args[f'{arg_id}'] = '_'
+        return args
+
+    def _populate_templates(self, doc, template_ids):
         """
         """
         populated = []
 
-        for _id, template in templates.items():
-            for sent, triple in template:
-                _populated = {
-                    'template': _id,
-                    'sentences': sent,
-                    'arguments': {
-                        "1": triple.,
-                        "2": ,
-                        "3": ,
-                    },
-                }
-                populated.append(_populated)
+        for _id in template_ids:
+            for sent in doc.sents:
+                templates = sent[f'{_id}_templates']
+
+                for template in templates:
+                    _ext = {
+                        'template': _id,
+                        "sentences": sent['sent'],
+                        "arguments": self._populate_arguments(template),
+                    }
+                    populated.append(_ext)
         return populated
 
-    def write(self, path, docname, templates):
+    def write(self, path, docs, template_ids):
         """
 
         Arguments:
             path (pathlib.Path):
+                
+            docs (list of chomskIE.utils.Document objects):
 
-            docname (str):
-
-            templates (list):
+            template_ids (list):
 
         """
         if not self._validate_data_path(path):
-            raise PathError(f'{path} is not a valid file path.')
+            path.mkdir()
 
-        with open(path, 'r+') as file:
-            file_data = json.load(file)
-            populated = self._populate_templates(docname, templates)
-#            output_dump = [file_data] + populated
-            output_dump = populated
-            json.dump(output_dump, file)
+        for doc in docs:
+            output = {
+                'document': doc.name,
+                'extraction': self._populate_templates(doc, template_ids),
+            }
+            output_file_path = Path(path) / f'{doc.name}.json'
+
+            with open(output_file_path, 'w') as file:
+                json.dump(output, file, indent=4)

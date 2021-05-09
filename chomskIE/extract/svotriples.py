@@ -20,19 +20,12 @@ SVOTriple = namedtuple("SVOTriple", ["subject", "verb", "object"])
 
 
 class VerbTemplateExtractor:
-    """Extracts relevant information from a document which fit the
-    following information templates from subject-verb-object triples.
+    """All subject-verb-object triples corresponding to each sentence
+    in a document, and with verbs similar to the specified one are
+    extracted.
 
-    Template #1: BORN (PERSON/ORGANIZATION, DATE, LOCATION)
-
-    Template #2: ACQUIRE (ORGANIZATION, ORGANIZATION, DATE)
+    `VerbTemplateExtractor.extract`` is the entry-point.
     """
-    def _filter_on_ne(self, triples):
-        """
-        TO-DO: Implement according to templates.
-        """
-        return triples
-
     def _filter_on_verbs(self, verbs, triples):
         """Extract relevant subject-verb-object triples which
         contain the verb in ``verbs``.
@@ -173,17 +166,27 @@ class VerbTemplateExtractor:
         return triples
 
     def extract(self, doc, verb):
-        """
-        """
-        templates = []
+        """Extracts subject-verb-object triples containing verbs similar
+        to ``verb`` for each sentence in the document. Each such relevant
+        SVOTriple is appended to the document.
 
-        for sent in doc.sents:
+        Arguments:
+            doc (chomskIE.utils.Document):
+                Document.
+            verb (str):
+                Verb to identify relevant SVOTriples for.
+
+        Returns:
+            doc (chomskIE.utils.Document):
+                Updated document.
+        """
+        for index, sent in enumerate(doc.sents):
             svo_triples = self._retrieve_svo_triples(sent)
             verbs = self._extract_verbs(verb)
             svo_triples = self._filter_on_verbs(verbs, svo_triples)
-            svo_triples = self._filter_on_ne(svo_triples)
 
-            if svo_triples:
-                templates.append((sent['sent'], svo_triples))
-
-        return templates
+            # Only relevant SVOTriples, i.e. those with verbs similar
+            # to 'verb' are added to the corresponding sentence data
+            # structure in the document.
+            doc.sents[index][f'{verb}_svotriples'] = svo_triples
+        return doc
