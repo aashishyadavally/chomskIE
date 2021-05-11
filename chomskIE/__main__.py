@@ -120,10 +120,10 @@ def fit_transform(input_path, english_model):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='CS6320 Final Project')
     parser.add_argument('--input_path', dest='input_path',
-                        type=str, default='assets/data/dev/',
+                        type=str, default='../assets/data/dev/',
                         help='Path to input data file/directory')
     parser.add_argument('--output_path', dest='output_path',
-                        type=str, default='assets/outputs/',
+                        type=str, default='../assets/outputs/',
                         help='Path to output file location')
     parser.add_argument('--transform', dest='transform', action='store_true',
                         help='If passed, transforms sentences in single \
