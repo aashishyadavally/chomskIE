@@ -13,6 +13,7 @@ dependencies:
   - numpy
   - ftfy
   - textacy==0.11.0
+  - datefinder
 
   # Visualization stack
   - matplotlib
