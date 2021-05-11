@@ -26,6 +26,7 @@ class VerbTemplateExtractor:
 
     `VerbTemplateExtractor.extract`` is the entry-point.
     """
+
     def _filter_on_verbs(self, verbs, triples):
         """Extract relevant subject-verb-object triples which
         contain the verb in ``verbs``.
@@ -46,7 +47,7 @@ class VerbTemplateExtractor:
 
         for triple in triples:
             verbs_extra = ({token.text for token in triple.verb}).\
-                            union({token.lemma_ for token in triple.verb})
+                union({token.lemma_ for token in triple.verb})
             if any(verb in verbs_extra for verb in verbs):
                 relevant.append(triple)
 
@@ -72,8 +73,8 @@ class VerbTemplateExtractor:
 
         for verb in verbs:
             senses = wordnet.synsets(verb, pos=wordnet.VERB)
-            verbs_extra += list(chain.from_iterable([[name.replace('_', ' ') \
-                          for name in sense.lemma_names()] for sense in senses]))
+            verbs_extra += list(chain.from_iterable([[name.replace('_', ' ')
+                                                      for name in sense.lemma_names()] for sense in senses]))
         return set(verbs_extra)
 
     def _retrieve_svo_triples(self, sent):
