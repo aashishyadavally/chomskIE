@@ -104,7 +104,15 @@ class Writer:
             return False
 
     def _populate_arguments(self, template):
-        """
+        """Populate templates with relevant arguments from relation.
+
+        Arguments:
+            template (namedtuple):
+                Relation (for example, SVOTriple, PartTuple, etc.)
+
+        Returns:
+            args (list):
+                Dictionary of relation arguments.
         """
         args = {}
         for _id, arg_id in enumerate(template._fields):
@@ -115,7 +123,14 @@ class Writer:
         return args
 
     def _populate_templates(self, doc, template_ids):
-        """
+        """Extract relevant information to populate relation templates.
+
+        Arguments:
+            doc (chomskIE.utils.Document):
+                Document.
+            template_ids (list):
+                Attribute identifier in ``chomskIE.util.Document``
+                object to select corresponding relation templates.
         """
         populated = []
 
@@ -133,15 +148,18 @@ class Writer:
         return populated
 
     def write(self, path, docs, template_ids):
-        """
+        """Writes extracted relations for corresponding templates
+        to JSON files.
 
         Arguments:
             path (pathlib.Path):
-                
+                Output path.
             docs (list of chomskIE.utils.Document objects):
-
+                List of documents for which extracted relations need
+                to be written.
             template_ids (list):
-
+                Attribute identifier in ``chomskIE.util.Document``
+                object to select corresponding relation templates.
         """
         if not self._validate_data_path(path):
             path.mkdir()

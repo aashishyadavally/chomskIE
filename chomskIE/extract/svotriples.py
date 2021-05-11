@@ -25,6 +25,10 @@ class VerbTemplateExtractor:
     extracted.
 
     `VerbTemplateExtractor.extract`` is the entry-point.
+
+    The method ``_retrieve`_svo_triples`` is a slightly modified version
+    of the method ``textacy.extract.subject_verb_object_triples``, made
+    compatible to work with ``chomskIE.utils.Document``.
     """
     def _filter_on_verbs(self, verbs, triples):
         """Extract relevant subject-verb-object triples which

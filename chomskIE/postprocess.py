@@ -1,5 +1,8 @@
 from collections import namedtuple
 
+import datefinder
+from datefinder import DateFinder
+
 
 ARGUMENT_ENTITY_TYPES = {
     'born' : [
@@ -11,10 +14,6 @@ ARGUMENT_ENTITY_TYPES = {
         ['ORG'],
         ['ORG'],
         ['DATE'],
-    ],
-    'part': [
-        ['ORG', 'GPE'],
-        ['ORG', 'GPE'],
     ],
 }
 
@@ -31,7 +30,7 @@ def post_process_triples(triple_type, doc):
 
     Arguments:
         triple_type (str):
-            Verb
+            Relation.
         doc (chomskIE.utils.Document):
             Document containing list of SVOTriples for the verb.
 
@@ -39,6 +38,18 @@ def post_process_triples(triple_type, doc):
         doc (chomskIE.utils.Document):
             Updated document containing relevant templates.
     """
+    def extract_date_string(sentence):
+        date_finder = DateFinder()
+        matches = list(date_finder.extract_date_strings(sentence))
+        date_string = matches[0][0]
+        extra_tokens = matches[0][2]['extra_tokens']
+
+        for et in extra_tokens:
+            date_string = date_string.replace(et, '')
+
+        date_string = date_string.strip()
+        return date_string
+
     Args = namedtuple("Arguments", ["arg1", "arg2", "arg3"])
 
     ents = ARGUMENT_ENTITY_TYPES[triple_type]
@@ -54,25 +65,16 @@ def post_process_triples(triple_type, doc):
                     for child in verb.children:
                         if child.ent_type_ in ents[1] and child != arg1:
                             arg2 = child
-                        elif child.ent_type_ in ents[2] and child != arg1:
-                            arg3 = child
+                            # Extracting date for third argument in relation
+                            # using regex.
+                            date_string = extract_date_string(sent['sent'])
+                            if date_string:
+                                arg3 = date_string
+
                     if not(arg2 is None and arg3 is None):
                         templates.append(Args(arg1, arg2, arg3))
         doc.sents[index][f'{triple_type}_templates'] = templates
         del doc.sents[index][f'{triple_type}_svotriples']
-#            if arg1.ent_type_ in ents[0]:
-#                for obj in triple.object:
-#                    arg2, arg3 = None, None
-#                    if obj.ent_type_ in ents[1]:
-#                         arg2 = obj
-#                    elif obj.ent_type_ in ents[2]:
-#                        arg3 = obj
-#                    if not(arg2 is None and arg3 is None):
-#                        templates.append(Args(arg1, arg2, arg3))
-#        doc.sents[index][f'{triple_type}_templates'] = templates
-#        del doc.sents[index][f'{triple_type}_svotriples']
-
-
     return doc
 
 
@@ -91,4 +93,15 @@ def post_process_part_tuples(doc):
         doc (chomskIE.utils.Document):
             Updated document containing relevant templates.
     """
-    pass
+    Args = namedtuple("Arguments", ["arg1", "arg2"])
+
+    for index, sent in enumerate(doc.sents):
+        templates = []
+        if sent['part_tuples']:
+            for part_tuples in sent['part_tuples']:
+                for _tuple in [part_tuples]:
+                    templates.append(Args(getattr(_tuple, 'part'),
+                                          getattr(_tuple, 'whole')))
+        doc.sents[index][f'part_templates'] = templates
+        del doc.sents[index][f'part_tuples']
+    return doc

@@ -188,7 +188,7 @@ def filter_invalid_sents(doc):
                        + tag_counts['PRON']
         num_predicates = tag_counts['VERB'] + tag_counts['AUX']
         complete = (num_subjects >= 1 and num_predicates >= 1)
-        valid = complete and num_subjects > 1 and len(sent['named_entities']) > 1
+        valid = complete and num_subjects > 1
         return valid
 
     doc_sents = [sent for sent in doc.sents if is_valid(sent)]
