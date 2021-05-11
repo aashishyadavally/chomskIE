@@ -140,7 +140,7 @@ class Writer:
 
                 for template in templates:
                     _ext = {
-                        'template': _id,
+                        'template': _id.upper(),
                         "sentences": sent['sent'],
                         "arguments": self._populate_arguments(template),
                     }
@@ -169,7 +169,119 @@ class Writer:
                 'document': doc.name,
                 'extraction': self._populate_templates(doc, template_ids),
             }
-            output_file_path = Path(path) / f'{doc.name}.json'
+            doc_name = doc.name.replace('.txt', '')
+            output_file_path = Path(path) / f'{doc_name}.json'
 
-            with open(output_file_path, 'w') as file:
-                json.dump(output, file, indent=4)
+            if output_file_path.exists():
+                with open(output_file_path, 'r') as file:
+                    file_data = json.load(file)
+                    old = file_data['extraction']
+                    old.extend(output['extraction'])
+                    file_data['extraction'] = old
+
+                with open(output_file_path, 'w+') as file:
+                    json.dump(file_data, file, indent=4)
+            else:
+                with open(output_file_path, 'w+') as file:
+                    json.dump(output, file, indent=4)
+
+
+class DummyLoader(Loader):
+    """Utility class to load .txt files as needed to extract BORN relations.
+    """
+    def load_from_path(self, english_model, path):
+        """Loads all .txt files from `path`.
+
+        Arguments:
+            path (pathlib.Path)
+
+        Returns:
+            docs, spacy_docs (tuple)
+                ``docs`` is list of ``chomskIE.utils.Document`` objects
+                corresponding to .txt files in `path`.
+
+                ``spacy_docs`` is list of ``spacy.tokens.Document`` objects
+                corresponding to .txt files in `path` processed by
+                ``english_model``.
+        """
+        if not self._validate_data_path(path, is_directory=True):
+            raise PathError(f'{path} is not a valid data directory path.')
+
+        text_files = list(path.glob('*.txt'))
+
+        docs, spacy_docs = [], []
+
+        for text_file in text_files:
+            doc, spacy_doc = self.load(english_model, text_file)
+            docs.append(doc)
+            spacy_docs.append(spacy_doc)
+        return docs, spacy_docs
+
+    def load(self, english_model, path_to_file):
+        """Loads .txt file from `path_to_file`.
+
+        Arguments:
+            english_model (spacy.lang)
+                Trained SpaCy language pipeline.)
+            path_to_file (pathlib.Path):
+                Path to .txt file
+
+        Returns:
+            doc, spacy_doc (tuple)
+                ``doc`` is a ``chomskIE.utils.Document`` object corresponding
+                to .txt file in `path`.
+
+                ``spacy_doc`` is a ``spacy.tokens.Document`` object corresponding
+                to .txt files in `path` processed by ``english_model``.
+        """
+        if not self._validate_data_path(path_to_file, is_directory=False):
+            raise PathError(f'{path_to_file} is not a valid file path.')
+
+        try:
+            text_obj = open(path_to_file, 'r')
+            text = text_obj.read()
+        except UnicodeDecodeError:
+            text_obj = open(path_to_file, 'rb')
+            text, _ = ftfy.guess_bytes(text_obj.read())
+        
+        text = ftfy.ftfy(text)
+        name = str(path_to_file).split('/')[-1]
+
+        spacy_doc = english_model(text)
+        doc = Document(name=name, text=None, paragraphs=None)
+
+        return doc, spacy_doc
+
+
+class DummyWriter(Writer):
+    """Utility class to write extracted BORN relations to JSON file.
+    """
+    def _populate_templates(self, doc, template_ids):
+        """Extract relevant information to populate relation templates.
+
+        Arguments:
+            doc (chomskIE.utils.Document):
+                Document.
+            template_ids (list):
+                Attribute identifier in ``chomskIE.util.Document``
+                object to select corresponding relation templates.
+        """
+        populated = []
+
+        if 'born' in template_ids:
+            _id = 'BORN'
+
+        for sent in doc.sents:
+            templates = sent[f'born_templates']
+            for template in templates:
+                _ext = {
+                    'template': _id,
+                    "sentences": str(sent['sent'].text),
+                    "arguments": {
+                        "arg1": str(template[0]),
+                        "arg2": str(template[1]),
+                        "arg3": str(template[2]),
+                    },
+                }
+                populated.append(_ext)
+        return populated

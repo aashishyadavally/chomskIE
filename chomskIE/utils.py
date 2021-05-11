@@ -20,6 +20,8 @@ def retrieve_spacy_language(lang):
         subprocess.call(f'python -m spacy download {lang}', shell=True)
 
     model = spacy.load(lang)
+    model.add_pipe('merge_entities')
+    model.add_pipe('merge_noun_chunks')
     return model
 
 
