@@ -67,9 +67,11 @@ def post_process_triples(triple_type, doc):
                             arg2 = child
                             # Extracting date for third argument in relation
                             # using regex.
-                            date_string = extract_date_string(sent['sent'])
-                            if date_string:
-                                arg3 = date_string
+                            try:
+                                date_string = extract_date_string(sent['sent'])
+                            except:
+                                date_string = None
+                            arg3 = date_string
 
                     if not(arg2 is None and arg3 is None):
                         templates.append(Args(arg1, arg2, arg3))
