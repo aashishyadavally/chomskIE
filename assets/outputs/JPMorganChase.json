@@ -1,0 +1,144 @@
+{
+    "document": "JPMorganChase.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "The company's oldest predecessor institution, the Bank of the Manhattan Company, was the third oldest banking corporation in the United States, and the 31st oldest bank in the world, having been established on September 1, 1799, by Aaron Burr.",
+            "arguments": {
+                "arg1": "the Bank of the Manhattan Company",
+                "arg2": "September 1, 1799",
+                "arg3": "the United States"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "The Chase Manhattan Bank was formed upon the 1955 purchase of Chase National Bank (established in 1877) by the Bank of the Manhattan Company (established in 1799), the company's oldest predecessor institution.",
+            "arguments": {
+                "arg1": "The Chase Manhattan Bank",
+                "arg2": "1877",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "The New York Chemical Manufacturing Company was founded in 1823 as a maker of various chemicals.",
+            "arguments": {
+                "arg1": "The New York Chemical Manufacturing Company",
+                "arg2": "1823",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Led by J.P. Morgan partners, Henry S. Morgan (son of Jack Morgan and grandson of J. Pierpont Morgan) and Harold Stanley, Morgan Stanley was founded on September 16, 1935, with $6.6 million of nonvoting preferred stock from J.P. Morgan partners.",
+            "arguments": {
+                "arg1": "J. Pierpont Morgan",
+                "arg2": "September 16, 1935",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In November 2009, JPMorgan announced it would acquire the balance of JPMorgan Cazenove, an advisory and underwriting joint venture established in 2004 with the Cazenove Group, for GBP1 billion.",
+            "arguments": {
+                "arg1": "JPMorgan",
+                "arg2": "November 2009",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "The company, known previously as Chase Manhattan International Limited, was founded on September 18, 1968.",
+            "arguments": {
+                "arg1": "Chase Manhattan International Limited",
+                "arg2": "September 18, 1968",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "An office of the Equitable Eastern Banking Corporation (one of J.P. Morgan's predecessors) opened a branch in China in 1921 and Chase National Bank was established there in 1923.",
+            "arguments": {
+                "arg1": "the Equitable Eastern Banking Corporation",
+                "arg2": "1921",
+                "arg3": "China"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In 1996, Chemical Bank acquired Chase Manhattan.",
+            "arguments": {
+                "arg1": "Chemical Bank",
+                "arg2": "Chase Manhattan",
+                "arg3": "1996"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In April 2006, JPMorgan Chase acquired Bank of New York Mellon's retail and small business banking network.",
+            "arguments": {
+                "arg1": "JPMorgan Chase",
+                "arg2": "Bank of New York Mellon's",
+                "arg3": "April 2006"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In January 2013, JPMorgan acquired Bloomspot, a San Francisco-based startup in the \"deals\" space for $35 million.",
+            "arguments": {
+                "arg1": "JPMorgan",
+                "arg2": "Bloomspot",
+                "arg3": "January 2013"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "Bernie Madoff opened a business account at Chemical Bank in 1986 and maintained it until 2008, long after Chemical acquired Chase.",
+            "arguments": {
+                "arg1": "Chemical",
+                "arg2": "Chase",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Bank One Corporation was formed upon the 1998 merger between Bank One of Columbus, Ohio and First Chicago NBD.",
+            "arguments": {
+                "arg1": "Columbus",
+                "arg2": "Ohio"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Bank began operations in Japan in 1924, in Australia during the later part of the nineteenth century, and in Indonesia during the early 1920s.",
+            "arguments": {
+                "arg1": "Australia",
+                "arg2": "Australia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "An office of JPMorgan was opened in Taiwan in 1970, in Russia (Soviet Union) in 1973, and Nordic operations began during the same year.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In November 2009, a week after Birmingham, Alabama Mayor Larry Langford was convicted for financial crimes related to bond swaps for Jefferson County, Alabama, JPMorgan Chase & Co. agreed to a $722 million settlement with the U.S. Securities and Exchange Commission to end a probe into the sales of derivatives that allegedly contributed to the near-bankruptcy of the county.",
+            "arguments": {
+                "arg1": "Birmingham",
+                "arg2": "Alabama"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Chase, the U.S. and Canada, retail, commercial, and credit card bank is headquartered in Chicago at the Chase Tower, Chicago, Illinois.",
+            "arguments": {
+                "arg1": "Chicago",
+                "arg2": "Illinois"
+            }
+        }
+    ]
+}

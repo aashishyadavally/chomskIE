@@ -1,0 +1,241 @@
+{
+    "document": "AbrahamLincoln.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "Abraham Lincoln was born on February 12, 1809, as the second child of Thomas and Nancy Hanks Lincoln, in a one-room log cabin on Sinking Spring Farm near Hodgenville, Kentucky.",
+            "arguments": {
+                "arg1": "Abraham Lincoln",
+                "arg2": "February 12, 1809",
+                "arg3": "Hodgenville"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Robert Todd Lincoln was born in 1843 and Edward Baker Lincoln (Eddie) in 1846.",
+            "arguments": {
+                "arg1": "Robert Todd Lincoln",
+                "arg2": "1843",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "\"Willie\" Lincoln was born on December 21, 1850, and died of a fever on February 20, 1862.",
+            "arguments": {
+                "arg1": "Willie\" Lincoln",
+                "arg2": "December 21, 1850",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "The Lincolns' fourth son, Thomas \"Tad\" Lincoln, was born on April 4, 1853, and died of heart failure at the age of 18 on July 16, 1871.",
+            "arguments": {
+                "arg1": "The Lincolns' fourth son",
+                "arg2": "April 4, 1853",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Samuel's grandson and great-grandson began the family's westward migration, passing through New Jersey, Pennsylvania, and Virginia.",
+            "arguments": {
+                "arg1": "Pennsylvania",
+                "arg2": "Pennsylvania"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Thomas then worked at odd jobs in Kentucky and in Tennessee, before settling with members of his family in Hardin County, Kentucky, in the early 1800s.",
+            "arguments": {
+                "arg1": "Tennessee",
+                "arg2": "Tennessee"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In early March 1830, partly out of fear of a milk sickness outbreak, several members of the extended Lincoln family moved west to Illinois, a free state, and settled in Macon County, 10 miles (16 km) west of Decatur.",
+            "arguments": {
+                "arg1": "Decatur",
+                "arg2": "Illinois"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In 1840, Lincoln became engaged to Mary Todd, a daughter of Robert Smith Todd, a wealthy slave-owner in Lexington, Kentucky.",
+            "arguments": {
+                "arg1": "Lexington",
+                "arg2": "Kentucky"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "They met in Springfield, Illinois in December 1839 and were engaged a year later.",
+            "arguments": {
+                "arg1": "Springfield",
+                "arg2": "Illinois"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Admitted to the Illinois bar in 1836, he moved to Springfield, Illinois, and began to practice law under John T. Stuart, Mary Todd's cousin.",
+            "arguments": {
+                "arg1": "Springfield",
+                "arg2": "Illinois"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In part due to the ongoing violent political confrontations in Kansas, opposition to the Kansas\u2013Nebraska Act remained strong throughout the North.",
+            "arguments": {
+                "arg1": "Kansas",
+                "arg2": "Kansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "On December 20, 1860, South Carolina took the lead by adopting an ordinance of secession; by February 1, 1861, Florida, Mississippi, Alabama, Georgia, Louisiana, and Texas had followed.",
+            "arguments": {
+                "arg1": "Alabama",
+                "arg2": "Alabama"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The upper South and border states (Delaware, Maryland, Virginia, North Carolina, Tennessee, Kentucky, Missouri, and Arkansas) listened to, but initially rejected, the secessionist appeal.",
+            "arguments": {
+                "arg1": "Delaware",
+                "arg2": "Delaware"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The upper South and border states (Delaware, Maryland, Virginia, North Carolina, Tennessee, Kentucky, Missouri, and Arkansas) listened to, but initially rejected, the secessionist appeal.",
+            "arguments": {
+                "arg1": "Tennessee",
+                "arg2": "Tennessee"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The upper South and border states (Delaware, Maryland, Virginia, North Carolina, Tennessee, Kentucky, Missouri, and Arkansas) listened to, but initially rejected, the secessionist appeal.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Kentucky"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "On February 23, 1861, he arrived in disguise in Washington, D.C., which was placed under substantial military guard.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Virginia seceded and was rewarded with the Confederate capital, despite the exposed position of Richmond close to Union lines.",
+            "arguments": {
+                "arg1": "Richmond",
+                "arg2": "Virginia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "North Carolina, Tennessee, and Arkansas followed over the following two months.",
+            "arguments": {
+                "arg1": "Tennessee",
+                "arg2": "Tennessee"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "North Carolina, Tennessee, and Arkansas followed over the following two months.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Meade followed Lee into Pennsylvania and beat him in the Gettysburg Campaign, but then failed to follow up despite Lincoln's demands.",
+            "arguments": {
+                "arg1": "Pennsylvania",
+                "arg2": "Pennsylvania"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In 1864 Confederate general Jubal Early raided Washington, D.C., while Lincoln watched from an exposed position; Captain Oliver Wendell Holmes shouted at him, \"Get down, you damn fool, before you get shot!\"",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In Tennessee and Arkansas, Lincoln appointed Johnson and Frederick Steele as military governors, respectively.",
+            "arguments": {
+                "arg1": "Tennessee",
+                "arg2": "Tennessee"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In Tennessee and Arkansas, Lincoln appointed Johnson and Frederick Steele as military governors, respectively.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Radicals retaliated by refusing to seat elected representatives from Louisiana, Arkansas, and Tennessee.",
+            "arguments": {
+                "arg1": "Tennessee",
+                "arg2": "Tennessee"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Radicals retaliated by refusing to seat elected representatives from Louisiana, Arkansas, and Tennessee.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The train followed a circuitous route from Washington D.C. to Springfield, Illinois, stopping at many cities for memorials attended by hundreds of thousands.",
+            "arguments": {
+                "arg1": "Springfield",
+                "arg2": "Illinois"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The high point came in 1922 with the dedication of the Lincoln Memorial on the National Mall in Washington, D.C. In the New Deal era, liberals honored Lincoln not so much as the self-made man or the great war president, but as the advocate of the common man who they claimed would have supported the welfare state.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The most famous and most visited memorials are Lincoln's sculpture on Mount Rushmore; Lincoln Memorial, Ford's Theatre, and Petersen House (where he died) in Washington, D.C.; and the Abraham Lincoln Presidential Library and Museum in Springfield, Illinois, not far from Lincoln's home, as well as his tomb.",
+            "arguments": {
+                "arg1": "Springfield",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The most famous and most visited memorials are Lincoln's sculpture on Mount Rushmore; Lincoln Memorial, Ford's Theatre, and Petersen House (where he died) in Washington, D.C.; and the Abraham Lincoln Presidential Library and Museum in Springfield, Illinois, not far from Lincoln's home, as well as his tomb.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "Illinois"
+            }
+        }
+    ]
+}

@@ -1,0 +1,263 @@
+{
+    "document": "Texas.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "In return, for US$18,250,000, Mexico gave the U.S. undisputed control of Texas, ceded the Mexican Cession in 1848, most of which today is called the American Southwest, and Texas's borders were established at the Rio Grande.",
+            "arguments": {
+                "arg1": "the Mexican Cession",
+                "arg2": "1848",
+                "arg3": "Texas"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "\n\nFounded in 1892, Modern Art Museum of Fort Worth, also called \"The Modern\", is Texas's oldest art museum.",
+            "arguments": {
+                "arg1": "Modern Art Museum of Fort Worth",
+                "arg2": "1892",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Geographically located in the South Central region of the country, Texas shares borders with the U.S. states of Louisiana to the east, Arkansas to the northeast, Oklahoma to the north, New Mexico to the west, and the Mexican states of Chihuahua, Coahuila, Nuevo Le\u00f3n, and Tamaulipas to the southwest, while the Gulf of Mexico is to the southeast.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Geographically located in the South Central region of the country, Texas shares borders with the U.S. states of Louisiana to the east, Arkansas to the northeast, Oklahoma to the north, New Mexico to the west, and the Mexican states of Chihuahua, Coahuila, Nuevo Le\u00f3n, and Tamaulipas to the southwest, while the Gulf of Mexico is to the southeast.",
+            "arguments": {
+                "arg1": "Chihuahua",
+                "arg2": "Chihuahua"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Houston is the most populous city in Texas and the fourth largest in the U.S., while San Antonio is the second-most populous in the state and seventh largest in the U.S. Dallas\u2013Fort Worth and Greater Houston are the fourth and fifth largest metropolitan statistical areas in the country, respectively.",
+            "arguments": {
+                "arg1": "Houston",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Rio Grande forms a natural border with the Mexican states of Chihuahua, Coahuila, Nuevo Le\u00f3n, and Tamaulipas to the south.",
+            "arguments": {
+                "arg1": "Chihuahua",
+                "arg2": "Chihuahua"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Red River forms a natural border with Oklahoma and Arkansas to the north.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Oklahoma"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Other major rivers include the Pecos, the Brazos, Colorado, and Red River.",
+            "arguments": {
+                "arg1": "Colorado",
+                "arg2": "Colorado"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Caddoans preferred the company of Americans and almost the entire population of them migrated into the states of Louisiana and Arkansas.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Seemingly without actually knowing how they came by it, the United States (who had begun convincing tribes to self-segregate from whites by selling everything and moving west ever since they gained the Louisiana Purchase) faced an overflow of native peoples in Missouri and Arkansas and were able to negotiate with the Caddoans to allow several displaced peoples to settle on unused lands in eastern Texas.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "This included the Caddoans of Louisiana and Arkansas.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "U.S. Senator James Pearce of Maryland drafted the final proposal where Texas ceded its claims to land which later became half of present-day New Mexico, a third of Colorado, and small portions of Kansas, Oklahoma, and Wyoming to the federal government, in return for the assumption of $10 million of the old republic's debt.",
+            "arguments": {
+                "arg1": "Kansas",
+                "arg2": "Kansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "U.S. Senator James Pearce of Maryland drafted the final proposal where Texas ceded its claims to land which later became half of present-day New Mexico, a third of Colorado, and small portions of Kansas, Oklahoma, and Wyoming to the federal government, in return for the assumption of $10 million of the old republic's debt.",
+            "arguments": {
+                "arg1": "Colorado",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The final battle of the Civil War was fought near Brownsville, Texas at Palmito Ranch with a Confederate victory.",
+            "arguments": {
+                "arg1": "Brownsville",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Railroad networks grew rapidly as did the port at Galveston as commerce between Texas and the rest of the U.S. (and the rest of the world) expanded.",
+            "arguments": {
+                "arg1": "Galveston",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "On January 10, 1901, the first major oil well in Texas, Spindletop, was found south of Beaumont.",
+            "arguments": {
+                "arg1": "Beaumont",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "As of 2017, Texas had a gross state product (GSP) of $1.696 trillion, the second highest in the U.S. Its GSP is greater than the GDPs of Canada, South Korea, Russia and Australia, which are the world's 10th-, 11th-, 12th- and 13th-largest economies, respectively.",
+            "arguments": {
+                "arg1": "Australia",
+                "arg2": "Australia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "As of 2017, Texas had a gross state product (GSP) of $1.696 trillion, the second highest in the U.S. Its GSP is greater than the GDPs of Canada, South Korea, Russia and Australia, which are the world's 10th-, 11th-, 12th- and 13th-largest economies, respectively.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "While Houston is the largest city in Texas and the fourth largest city in the United States, the Dallas-Fort Worth metropolitan area is larger than Houston.",
+            "arguments": {
+                "arg1": "Houston",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Recently, the Asian population in Texas has grown\u2014primarily in Houston and Dallas.",
+            "arguments": {
+                "arg1": "Houston",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Other communities with a significantly growing Asian American population is in Austin, Corpus Christi, San Antonio, and the Sharyland area next McAllen, Texas.",
+            "arguments": {
+                "arg1": "Austin",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Texas has four metropolitan areas with populations greater than a million: Dallas\u2013Fort Worth\u2013Arlington, Houston\u2013Sugar Land\u2013Baytown, San Antonio\u2013New Braunfels, and Austin\u2013Round Rock\u2013San Marcos.",
+            "arguments": {
+                "arg1": "Houston",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The rate of school corporal punishment in Texas is surpassed only by Mississippi, Alabama, and Arkansas.",
+            "arguments": {
+                "arg1": "Alabama",
+                "arg2": "Alabama"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The rate of school corporal punishment in Texas is surpassed only by Mississippi, Alabama, and Arkansas.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The University of Texas at Austin and Texas A&M University are flagship universities of the state of Texas.",
+            "arguments": {
+                "arg1": "Austin",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Texas has two Biosafety Level 4 (BSL-4) laboratories: one at The University of Texas Medical Branch (UTMB) in Galveston, and the other at the Southwest Foundation for Biomedical Research in San Antonio\u2014the first privately owned BSL-4 lab in the United States.",
+            "arguments": {
+                "arg1": "Galveston",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Texas had only one city, Austin, ranked 21st, in the top 25 among the \"fittest cities\" in America.",
+            "arguments": {
+                "arg1": "Austin",
+                "arg2": "America"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Texas had only one city, Austin, ranked 21st, in the top 25 among the \"fittest cities\" in America.",
+            "arguments": {
+                "arg1": "Texas",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Part of the state's tradition of cowboys is derived from the massive cattle drives which its ranchers organized in the nineteenth century to drive livestock to railroads and markets in Kansas, for shipment to the East.",
+            "arguments": {
+                "arg1": "Kansas",
+                "arg2": "Kansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Towns along the way, such as Baxter Springs, the first cow town in Kansas, developed to handle the seasonal workers and tens of thousands of head of cattle being driven.",
+            "arguments": {
+                "arg1": "Kansas",
+                "arg2": "Kansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The first railroad to operate in Texas was the Buffalo Bayou, Brazos and Colorado Railway, opening in August 1853.",
+            "arguments": {
+                "arg1": "Brazos",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The first railroad to enter Texas from the north, completed in 1872, was the Missouri\u2013Kansas\u2013Texas Railroad.",
+            "arguments": {
+                "arg1": "Kansas",
+                "arg2": "Kansas"
+            }
+        }
+    ]
+}

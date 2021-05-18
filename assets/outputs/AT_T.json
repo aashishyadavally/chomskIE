@@ -1,0 +1,74 @@
+{
+    "document": "AT_T.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "\n\nAT&T began its history as Southwestern Bell Telephone Company, a subsidiary of the Bell Telephone Company, founded by Alexander Graham Bell in 1880.",
+            "arguments": {
+                "arg1": "AT&T",
+                "arg2": "1880",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "One of that company's subsidiaries was American Telephone and Telegraph Company (AT&T), established in 1885, which acquired the Bell Company on December 31, 1899, for legal reasons, leaving AT&T as the main company.",
+            "arguments": {
+                "arg1": "American Telephone and Telegraph Company",
+                "arg2": "1885",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "AT&T established a network of subsidiaries in the United States and Canada that held a government-authorized phone service monopoly, formalized with the Kingsbury Commitment, throughout most of the twentieth century.",
+            "arguments": {
+                "arg1": "AT&T",
+                "arg2": "the twentieth century",
+                "arg3": "the United States"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In 2006, AT&T Inc. acquired BellSouth, the last independent Baby Bell company, making their formerly joint venture Cingular Wireless (which had acquired AT&T Wireless in 2004) wholly owned and rebranding it as AT&T Mobility.",
+            "arguments": {
+                "arg1": "AT&T Inc.",
+                "arg2": "BellSouth",
+                "arg3": "2006,"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In order for AT&T to fully acquire Time Warner, the Department of Justice stated that the company must divest either DirecTV or Turner Broadcasting System.",
+            "arguments": {
+                "arg1": "AT&T",
+                "arg2": "Time Warner",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Atlanta, Georgia, continues to be the headquarters for AT&T Mobility, with significant offices in Redmond, Washington, the former home of AT&T Wireless.",
+            "arguments": {
+                "arg1": "Atlanta",
+                "arg2": "Georgia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "AT&T Plaza \u2013 Chicago, Illinois (public space that hosts the Cloud Gate sculpture in Millennium Park)",
+            "arguments": {
+                "arg1": "Chicago",
+                "arg2": "Illinois"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "AT&T Cotton Bowl Classic (formerly Mobil Cotton Bowl Classic, Southwestern Bell Cotton Bowl Classic, SBC Cotton Bowl Classic) \u2013 played in Arlington, Texas, at AT&T Stadium (football)",
+            "arguments": {
+                "arg1": "Arlington",
+                "arg2": "Texas"
+            }
+        }
+    ]
+}

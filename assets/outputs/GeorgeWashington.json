@@ -1,0 +1,120 @@
+{
+    "document": "GeorgeWashington.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "George Washington was born February 22, 1732 at Popes Creek in Westmoreland County, Virginia, and was the first of six children of Augustine and Mary Ball Washington.",
+            "arguments": {
+                "arg1": "George Washington",
+                "arg2": "",
+                "arg3": "Westmoreland County"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In March 1794, he signed the Naval Act which founded the U.S. Navy, and he commissioned the first six federal frigates to combat Barbary pirates.",
+            "arguments": {
+                "arg1": "the U.S. Navy",
+                "arg2": "March 1794",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In 1777, a convention of Virginia lodges asked him to be the Grand Master of the newly established Grand Lodge of Virginia, but he declined due to his commitments leading the Continental Army.",
+            "arguments": {
+                "arg1": "the newly established Grand Lodge",
+                "arg2": "1777",
+                "arg3": "Virginia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The family moved to Little Hunting Creek, then to Ferry Farm near Fredericksburg, Virginia.",
+            "arguments": {
+                "arg1": "Fredericksburg",
+                "arg2": "Virginia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington crossed the Delaware River into Pennsylvania, where Lee's replacement John Sullivan joined him with 2,000 more troops.",
+            "arguments": {
+                "arg1": "Pennsylvania",
+                "arg2": "Pennsylvania"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Once Knox arrived, Washington proceeded to Trenton, choosing to take his troops alone against the Hessians rather than returning his army to Pennsylvania and risk being spotted.",
+            "arguments": {
+                "arg1": "Pennsylvania",
+                "arg2": "Pennsylvania"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington retreated across the Delaware to Pennsylvania but returned to New Jersey on January 3, launching an attack on British regulars at Princeton, with 40 Americans killed or wounded and 273 British killed or captured.",
+            "arguments": {
+                "arg1": "Pennsylvania",
+                "arg2": "Pennsylvania"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In July 1777, British General John Burgoyne led the Saratoga campaign south from Quebec through Lake Champlain and recaptured Fort Ticonderoga with the objective of dividing New England, including control of the Hudson River.",
+            "arguments": {
+                "arg1": "Quebec",
+                "arg2": "Quebec"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington was concerned with Howe's movements during the Saratoga campaign to the north, and he was also aware that Burgoyne was moving south toward Saratoga from Quebec.",
+            "arguments": {
+                "arg1": "Quebec",
+                "arg2": "Quebec"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In late 1778, General Clinton shipped 3,000 troops from New York to Georgia and launched a Southern invasion against Savannah, reinforced by 2,000 British and Loyalist troops.",
+            "arguments": {
+                "arg1": "Savannah",
+                "arg2": "Georgia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Indian warriors joined with Tory rangers led by Walter Butler and viciously slew more than 200 frontiersmen in June, laying waste to the Wyoming Valley in Pennsylvania.",
+            "arguments": {
+                "arg1": "Pennsylvania",
+                "arg2": "Pennsylvania"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Siege of Yorktown, Virginia was a decisive allied victory by the combined forces of the Continental Army commanded by General Washington, the French Army commanded by the General Comte de Rochambeau, and the French Navy commanded by Admiral de Grasse, in the defeat of Cornwallis' British forces.",
+            "arguments": {
+                "arg1": "Yorktown",
+                "arg2": "Virginia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington was descended from Anglican minister Lawrence Washington (his great-great-grandfather), whose troubles with the Church of England may have prompted his heirs to emigrate to America.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "America"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Many places and monuments have been named in honor of Washington, most notably the nation's capital Washington, D.C. The state of Washington is the only state to be named after a president.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        }
+    ]
+}

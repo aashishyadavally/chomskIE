@@ -1,0 +1,65 @@
+{
+    "document": "MahatmaGandhi.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "Mohandas Karamchand Gandhi was born on 2 October 1869 into a Gujarati Hindu Modh Baniya family in Porbandar (also known as Sudamapuri), a coastal town on the Kathiawar Peninsula and then part of the small princely state of Porbandar in the Kathiawar Agency of the Indian Empire.",
+            "arguments": {
+                "arg1": "Mohandas Karamchand Gandhi",
+                "arg2": "2 October 1869",
+                "arg3": "Sudamapuri"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Some of the vegetarians he met were members of the Theosophical Society, which had been founded in 1875 to further universal brotherhood, and which was devoted to the study of Buddhist and Hindu literature.",
+            "arguments": {
+                "arg1": "the Theosophical Society",
+                "arg2": "1875",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In 1910, Gandhi established, with the help of his friend Hermann Kallenbach, an idealistic community they named 'Tolstoy Farm' near Johannesburg.",
+            "arguments": {
+                "arg1": "'Tolstoy Farm'",
+                "arg2": "1910",
+                "arg3": "Johannesburg"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "\n\nLanza del Vasto went to India in 1936 intending to live with Gandhi; he later returned to Europe to spread Gandhi's philosophy and founded the Community of the Ark in 1948 (modelled after Gandhi's ashrams).",
+            "arguments": {
+                "arg1": "the Community of the Ark",
+                "arg2": "1936",
+                "arg3": "India"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Some of Gandhi's ashes were scattered at the source of the Nile River near Jinja, Uganda, and a memorial plaque marks the event.",
+            "arguments": {
+                "arg1": "Jinja",
+                "arg2": "Uganda"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Gandhi discussed the persecution of the Jews in Germany and the emigration of Jews from Europe to Palestine through his lens of Satyagraha.",
+            "arguments": {
+                "arg1": "Germany",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Mahatma Gandhi District in Houston, Texas, United States, an ethnic Indian enclave, is officially named after Gandhi.",
+            "arguments": {
+                "arg1": "Houston",
+                "arg2": "Texas"
+            }
+        }
+    ]
+}

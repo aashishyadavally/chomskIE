@@ -1,0 +1,122 @@
+{
+    "document": "TeslaInc.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "\n\nTesla was founded in July 2003, by engineers Martin Eberhard and Marc Tarpenning, under the name Tesla Motors.",
+            "arguments": {
+                "arg1": "Tesla Motors",
+                "arg2": "July 2003",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "Among other awards, the Model S won the 2013 \"Motor Trend Car of the Year\", the 2013 \"World Green Car\", Automobile Magazine's 2013 \"Car of the Year\", and Time Magazine Best 25 Inventions of the Year 2012 award.",
+            "arguments": {
+                "arg1": "the Model S",
+                "arg2": "Time Magazine",
+                "arg3": "2013"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In 2015, Tesla acquired Riviera Tool & Die (with 100 employees in Michigan), one of its suppliers of stamping items.",
+            "arguments": {
+                "arg1": "Tesla",
+                "arg2": "Riviera Tool & Die",
+                "arg3": "2015"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In 2017, Tesla acquired Perbix Machine Company, a manufacturer of automated manufacturing equipment, that had been an equipment supplier for over three years.",
+            "arguments": {
+                "arg1": "Tesla",
+                "arg2": "Perbix Machine Company",
+                "arg3": "2017"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In late 2016, Tesla acquired German engineering firm Grohmann Engineering in Pr\u00fcm as a new division dedicated to helping Tesla increase the automation and effectiveness of its manufacturing process.",
+            "arguments": {
+                "arg1": "Tesla",
+                "arg2": "German engineering firm Grohmann Engineering",
+                "arg3": "2016"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "It operates multiple production and assembly plants, notably Gigafactory 1 near Reno, Nevada, and its main vehicle manufacturing facility at Tesla Factory in Fremont, California.",
+            "arguments": {
+                "arg1": "Reno",
+                "arg2": "Nevada"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Also in 2016, Tesla sold US$1 billion worth of cars in China, the world's largest market for electric vehicles, and in October of the following year it reached an agreement with the Chinese government to build a factory in Shanghai.",
+            "arguments": {
+                "arg1": "Shanghai",
+                "arg2": "China"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "First deliveries of the right-hand-drive model destined for the UK, Australia, Hong Kong and Japan came in 2014.",
+            "arguments": {
+                "arg1": "Australia",
+                "arg2": "Australia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Gigafactory 1 is located outside Reno, Nevada.",
+            "arguments": {
+                "arg1": "Reno",
+                "arg2": "Nevada"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Tesla's first \"new design\" store opened on November 16, 2012 in the Yorkdale Shopping Centre in Toronto, Ontario.",
+            "arguments": {
+                "arg1": "Toronto",
+                "arg2": "Ontario"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "As of February 2018, Tesla is building a small research and development office in Athens, Greece.",
+            "arguments": {
+                "arg1": "Athens",
+                "arg2": "Greece"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Tesla opened its first Japanese showroom in Tokyo, Japan, in October 2010.",
+            "arguments": {
+                "arg1": "Tokyo",
+                "arg2": "Japan"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In July 2018, Tesla signed an agreement with Chinese authorities to build a factory in Shanghai, China, which is Tesla's first Gigafactory outside of the United States.",
+            "arguments": {
+                "arg1": "Shanghai",
+                "arg2": "China"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "On November 6, 2013, a Tesla Model S on Interstate 24 near Murfreesboro, Tennessee, caught fire after it struck a tow hitch on the roadway, causing damage beneath the vehicle.",
+            "arguments": {
+                "arg1": "Tennessee",
+                "arg2": "Tennessee"
+            }
+        }
+    ]
+}

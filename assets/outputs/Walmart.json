@@ -1,0 +1,166 @@
+{
+    "document": "Walmart.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "In September 2016, Walmart purchased e-commerce company Jet.com, founded in 2014 by Marc Lore, to start competing with Amazon.com.",
+            "arguments": {
+                "arg1": "Amazon.com",
+                "arg2": "September 2016",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Headquartered in Bentonville, Arkansas, the company was founded by Sam Walton in 1962 and incorporated on October 31, 1969.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "A Walmart in York, Pennsylvania opened in October 1990: the first main store in the Northeast.",
+            "arguments": {
+                "arg1": "Pennsylvania",
+                "arg2": "Pennsylvania"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "On July 2, 1962, Walton opened the first Walmart Discount City store at 719 W. Walnut Street in Rogers, Arkansas.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In 1968, it opened its first stores outside Arkansas, in Sikeston, Missouri and Claremore, Oklahoma.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Oklahoma"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The same year, the company opened a home office and first distribution center in Bentonville, Arkansas.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "By this time, Walmart was operating in five states: Arkansas, Kansas, Louisiana, Missouri, and Oklahoma; it entered Tennessee in 1973 and Kentucky and Mississippi in 1974.",
+            "arguments": {
+                "arg1": "Kansas",
+                "arg2": "Kansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "By this time, Walmart was operating in five states: Arkansas, Kansas, Louisiana, Missouri, and Oklahoma; it entered Tennessee in 1973 and Kentucky and Mississippi in 1974.",
+            "arguments": {
+                "arg1": "Tennessee",
+                "arg2": "Tennessee"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "By this time, Walmart was operating in five states: Arkansas, Kansas, Louisiana, Missouri, and Oklahoma; it entered Tennessee in 1973 and Kentucky and Mississippi in 1974.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Oklahoma"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Prior to the summer of 1990, Walmart had no presence on the West Coast or in the Northeast (except for a single Sam's Club in New Jersey which opened in November 1989), but in July and October that year, it opened its first stores in California and Pennsylvania, respectively.",
+            "arguments": {
+                "arg1": "Pennsylvania",
+                "arg2": "Pennsylvania"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "As part of the initiative, the company launched a new store in Plano, Texas that included high-end electronics, jewelry, expensive wines and a sushi bar.",
+            "arguments": {
+                "arg1": "Plano",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "A similar concept, Hypermart USA, had opened a year earlier in Garland, Texas.",
+            "arguments": {
+                "arg1": "Garland",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Some stores, such as one at Midtown Center in Bentonville, Arkansas, offer made-to-order pizza with a seating area for eating.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In 2009, another Supermercado de Walmart opened in Phoenix, Arizona.",
+            "arguments": {
+                "arg1": "Phoenix",
+                "arg2": "Arizona"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Walmart planned to build 15 to 20 Walmart Express stores, focusing on Arkansas, North Carolina and Chicago, by the end of its fiscal year in January 2012.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "As of January 31, 2019, it has 436 stores, including 389 stores in South Africa (under the banners Game Foodco [71 locations], CBW [46 locations], Game [49 locations], Builders Express [46 locations], Builders Warehouse [33 locations], Cambridge [43 locations], Dion Wired [23 locations], Rhino [19 locations], Makro [21 locations], Builders Trade Depot [13 locations], Jumbo [10 locations], and Builders Superstore [15 locations]), 11 stores in Botswana (under the banners CBW [7 locations], Game Foodco [2 locations], and Builders Warehouse [2 locations]), 4 stores in Ghana under the banners Game (3 locations) and Game Foodco (1 location), 2 stores in Kenya (under the Game Foodco banner), 3 stores in Lesotho (under the banners CBW [2 locations] and Game Foodco [1 location]), 2 stores in Malawi (under the Game banner), 6 stores in Mozambique (under the banners Builders Warehouse [2 locations], Game Foodco [2 locations], CBW [1 location], and Builders Express [1 location]), 4 stores in Namibia (under the banners Game Foodco [2 locations], Game [1 location], and CBW [1 location]), 5 stores in Nigeria (under the banners Game [4 locations] and Game Foodco [1 location], 1 store in Swaziland (under the CBW banner), 1 store in Tanzania (under the Game banner), 1 store in Uganda (under the Game banner), and 7 stores in Zambia (under the banners CBW [1 location], Game [3 locations], Builders Warehouse [2 locations], and Builders Express [1 location]).",
+            "arguments": {
+                "arg1": "Cambridge",
+                "arg2": "Cambridge"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Scott Price, Walmart's president and CEO for Asia, told The Wall Street Journal that the company would be able to start opening Walmart stores in India within two years.",
+            "arguments": {
+                "arg1": "India",
+                "arg2": "Asia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "There are several locations in the United States in California and Oregon: San Bruno, Sunnyvale, Brisbane, and Portland.",
+            "arguments": {
+                "arg1": "Portland",
+                "arg2": "Oregon"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Locations outside of the United States include Shanghai (China), Leeds (United Kingdom), and Bangalore (India).",
+            "arguments": {
+                "arg1": "Shanghai",
+                "arg2": "China"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Walmart is headquartered in the Walmart Home Office complex in Bentonville, Arkansas.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        }
+    ]
+}

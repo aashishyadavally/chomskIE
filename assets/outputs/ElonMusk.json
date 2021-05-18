@@ -1,0 +1,102 @@
+{
+    "document": "ElonMusk.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "He subsequently co-founded Zip2, a web software company, which was acquired by Compaq for $340 million in 1999.",
+            "arguments": {
+                "arg1": "Compaq",
+                "arg2": "1999",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Musk then founded X.com, an online bank.",
+            "arguments": {
+                "arg1": "X.com",
+                "arg2": "",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In May 2002, Musk founded SpaceX, an aerospace manufacturer and space transport services company, of which he is CEO and lead designer.",
+            "arguments": {
+                "arg1": "SpaceX",
+                "arg2": "May 2002",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In July 2016, he co-founded Neuralink, a neurotechnology company focused on developing brain\u2013computer interfaces, and is its CEO.",
+            "arguments": {
+                "arg1": "founded Neuralink",
+                "arg2": "July 2016",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In December 2016, Musk founded The Boring Company, an infrastructure and tunnel-construction company.",
+            "arguments": {
+                "arg1": "The Boring Company",
+                "arg2": "December 2016",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Musk was born on June 28, 1971, in Pretoria, Transvaal, South Africa, the son of Maye Musk (n\u00e9e Haldeman), a model and dietitian from Regina, Saskatchewan, Canada, and Errol Musk, a South African electromechanical engineer, pilot, and sailor.",
+            "arguments": {
+                "arg1": "Musk",
+                "arg2": "June 28, 1971",
+                "arg3": "Pretoria"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In March 1999, Musk co-founded X.com, an online financial services and e-mail payment company, with US$10 million from the sale of Zip2.",
+            "arguments": {
+                "arg1": "founded X.com",
+                "arg2": "March 1999",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "With US$100 million of his early fortune, Musk founded Space Exploration Technologies, or SpaceX, in May 2002.",
+            "arguments": {
+                "arg1": "Space Exploration Technologies",
+                "arg2": "May 2002",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "Compaq acquired Zip2 for US$307 million in cash and US$34 million in stock options in February 1999.",
+            "arguments": {
+                "arg1": "Compaq",
+                "arg2": "Zip2",
+                "arg3": "February 1999"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Musk was born on June 28, 1971, in Pretoria, Transvaal, South Africa, the son of Maye Musk (n\u00e9e Haldeman), a model and dietitian from Regina, Saskatchewan, Canada, and Errol Musk, a South African electromechanical engineer, pilot, and sailor.",
+            "arguments": {
+                "arg1": "Saskatchewan",
+                "arg2": "Saskatchewan"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Musk was born on June 28, 1971, in Pretoria, Transvaal, South Africa, the son of Maye Musk (n\u00e9e Haldeman), a model and dietitian from Regina, Saskatchewan, Canada, and Errol Musk, a South African electromechanical engineer, pilot, and sailor.",
+            "arguments": {
+                "arg1": "Regina",
+                "arg2": "Canada"
+            }
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+    "document": "India.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "By the early 18th century, with the lines between commercial and political dominance being increasingly blurred, a number of European trading companies, including the English East India Company, had established coastal outposts.",
+            "arguments": {
+                "arg1": "the English East India Company",
+                "arg2": "the early 18th century",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "By the 8th and 9th centuries, the effects were felt in South-East Asia, as South Indian culture and political systems were exported to lands that became part of modern-day Myanmar, Thailand, Laos, Cambodia, Vietnam, Philippines, Malaysia, and Java.",
+            "arguments": {
+                "arg1": "Philippines",
+                "arg2": "Philippines"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Yet, India is also shaped by seemingly unyielding poverty, both rural and urban; by religious and caste-related violence; by Maoist-inspired Naxalite insurgencies; and by separatism in Jammu and Kashmir and in Northeast India.",
+            "arguments": {
+                "arg1": "Kashmir",
+                "arg2": "India"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Mammals then entered India from Asia through two zoogeographical passes flanking the rising Himalaya.",
+            "arguments": {
+                "arg1": "India",
+                "arg2": "Asia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Aside from ongoing special relationship with Russia, India has wide-ranging defence relations with Israel and France.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "India has close economic ties with South America, Asia, and Africa; it pursues a \"Look East\" policy that seeks to strengthen partnerships with the ASEAN nations, Japan, and South Korea that revolve around many issues, but especially those involving economic investment and regional security.",
+            "arguments": {
+                "arg1": "Japan",
+                "arg2": "Asia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "India subsequently signed co-operation agreements involving civilian nuclear energy with Russia, France, the United Kingdom, and Canada.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In October 2018, India signed a US$5.43 billion (over Rs 400 billion) agreement with Russia to procure four S-400 Triumf surface-to-air missile defence systems, Russia's most advanced long-range missile defence system.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Driven by growth, India's nominal GDP per capita has steadily increased from US$329 in 1991, when economic liberalisation began, to US$1,265 in 2010, to an estimated US$1,723 in 2016, and is expected to grow to US$2,358 by 2020; however, it has remained lower than those of other Asian developing countries such as Indonesia, Malaysia, Philippines, Sri Lanka, and Thailand, and is expected to remain so in the near future.",
+            "arguments": {
+                "arg1": "Philippines",
+                "arg2": "Philippines"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "According to the Worldwide Cost of Living Report 2017 released by the Economist Intelligence Unit (EIU) which was created by comparing more than 400 individual prices across 160 products and services, four of the cheapest cities were in India: Bangalore (3rd), Mumbai (5th), Chennai (5th) and New Delhi (8th).",
+            "arguments": {
+                "arg1": "Mumbai",
+                "arg2": "India"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "According to the 2011 census, there are 53 million-plus urban agglomerations in India; among them Mumbai, Delhi, Kolkata, Chennai, Bangalore, Hyderabad and Ahmedabad, in decreasing order by population.",
+            "arguments": {
+                "arg1": "Delhi",
+                "arg2": "India"
+            }
+        }
+    ]
+}

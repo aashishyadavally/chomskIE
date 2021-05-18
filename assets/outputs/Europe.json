@@ -1,0 +1,449 @@
+{
+    "document": "Europe.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "In 1949 the Council of Europe was founded, following a speech by Sir Winston Churchill, with the idea of unifying Europe to achieve common goals.",
+            "arguments": {
+                "arg1": "the Council of Europe",
+                "arg2": "1949",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "They established the state of the Golden Horde with headquarters in Crimea, which later adopted Islam as a religion and ruled over modern-day southern and central Russia for more than three centuries.",
+            "arguments": {
+                "arg1": "Islam",
+                "arg2": "more than three centuries",
+                "arg3": "Crimea"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Napoleon Bonaparte rose to power in the aftermath of the French Revolution and established the First French Empire that, during the Napoleonic Wars, grew to encompass large parts of Europe before collapsing in 1815 with the Battle of Waterloo.",
+            "arguments": {
+                "arg1": "the Battle of Waterloo",
+                "arg2": "1815",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "The Treaty of Rome in 1957 established the European Economic Community between six Western European states with the goal of a unified economic policy and common market.",
+            "arguments": {
+                "arg1": "the European Economic Community",
+                "arg2": "1957",
+                "arg3": "Rome"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The geographic border also does not follow political boundaries, with Turkey, Russia and Kazakhstan being transcontinental countries.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Since the Age of Discovery started by Portugal and Spain, Europe played a predominant role in global affairs.",
+            "arguments": {
+                "arg1": "Portugal",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Islands are generally grouped with the nearest continental landmass, hence Iceland is generally considered to be part of Europe, while the nearby island of Greenland is usually assigned to North America.",
+            "arguments": {
+                "arg1": "Iceland",
+                "arg2": "Iceland"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Malta was considered an island of Northwest Africa for centuries.",
+            "arguments": {
+                "arg1": "Malta",
+                "arg2": "Malta"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Herodotus mentioned that the world had been divided by unknown persons into three parts, Europe, Asia, and Libya (Africa), with the Nile and the Phasis forming their boundaries\u2014though he also states that some considered the River Don, rather than the Phasis, as the boundary between Europe and Asia.",
+            "arguments": {
+                "arg1": "Libya",
+                "arg2": "Africa"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "A cultural definition of Europe as the lands of Latin Christendom coalesced in the 8th century, signifying the new cultural condominium created through the confluence of Germanic traditions and Christian-Latin culture, defined partly in contrast with Byzantium and Islam, and limited to northern Iberia, the British Isles, France, Christianised western Germany, the Alpine regions and northern and central Italy.",
+            "arguments": {
+                "arg1": "Byzantium",
+                "arg2": "Byzantium"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "A cultural definition of Europe as the lands of Latin Christendom coalesced in the 8th century, signifying the new cultural condominium created through the confluence of Germanic traditions and Christian-Latin culture, defined partly in contrast with Byzantium and Islam, and limited to northern Iberia, the British Isles, France, Christianised western Germany, the Alpine regions and northern and central Italy.",
+            "arguments": {
+                "arg1": "France",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Throughout the Middle Ages and into the 18th century, the traditional division of the landmass of Eurasia into two continents, Europe and Asia, followed Ptolemy, with the boundary following the Turkish Straits, the Black Sea, the Kerch Strait, the Sea of Azov and the Don (ancient Tanais).",
+            "arguments": {
+                "arg1": "Asia",
+                "arg2": "Eurasia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In Russia and the Soviet Union, the boundary along the Kuma\u2013Manych Depression was the most commonly used as early as 1906.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Neanderthal man (named after the Neandertal valley in Germany) appeared in Europe 150,000 years ago (115,000 years ago it is found already in Poland) and disappeared from the fossil record about 28,000 years ago, with their final refuge being present-day Portugal.",
+            "arguments": {
+                "arg1": "Germany",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The earliest sites in Europe dated 48,000 years ago areRiparo Mochi (Italy), Geissenkl\u00f6sterle (Germany), and Isturitz (France)",
+            "arguments": {
+                "arg1": "Germany",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The European Bronze Age began c. 3200 BC in Greece with the Minoan civilization on Crete, the first advanced civilization in Europe.",
+            "arguments": {
+                "arg1": "Greece",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Constantine also permanently moved the capital of the empire from Rome to the city of Byzantium, which was renamed Constantinople in his honour (modern-day Istanbul) in 330 AD.",
+            "arguments": {
+                "arg1": "Byzantium",
+                "arg2": "Byzantium"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Feudalism developed in France in the Early Middle Ages and soon spread throughout Europe.",
+            "arguments": {
+                "arg1": "France",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Although it would recover Constantinople in 1261, Byzantium fell in 1453 when Constantinople was taken by the Ottoman Empire.",
+            "arguments": {
+                "arg1": "Byzantium",
+                "arg2": "Byzantium"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Patrons in Italy, including the Medici family of Florentine bankers and the Popes in Rome, funded prolific quattrocento and cinquecento artists such as Raphael, Michelangelo, and Leonardo da Vinci.",
+            "arguments": {
+                "arg1": "Rome",
+                "arg2": "Italy"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In the aftermath of the Peace of Westphalia, France rose to predominance within Europe.",
+            "arguments": {
+                "arg1": "France",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "From the 15th to 18th centuries, when the disintegrating khanates of the Golden Horde were conquered by Russia, Tatars from the Crimean Khanate frequently raided Eastern Slavic lands to capture slaves.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Further east, the Nogai Horde and Kazakh Khanate frequently raided the Slavic-speaking areas of Russia, Ukraine and Poland for hundreds of years, until the Russian expansion and conquest of most of northern Eurasia (i.e. Eastern Europe, Central Asia and Siberia).",
+            "arguments": {
+                "arg1": "Siberia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Congress of Vienna, convened after Napoleon's downfall, established a new balance of power in Europe centred on the five \"Great Powers\": the UK, France, Prussia, Austria, and Russia.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Congress of Vienna, convened after Napoleon's downfall, established a new balance of power in Europe centred on the five \"Great Powers\": the UK, France, Prussia, Austria, and Russia.",
+            "arguments": {
+                "arg1": "Austria",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Congress of Vienna, convened after Napoleon's downfall, established a new balance of power in Europe centred on the five \"Great Powers\": the UK, France, Prussia, Austria, and Russia.",
+            "arguments": {
+                "arg1": "France",
+                "arg2": "Austria"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "This balance would remain in place until the Revolutions of 1848, during which liberal uprisings affected all of Europe except for Russia and the UK.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Most European nations were drawn into the war, which was fought between the Entente Powers (France, Belgium, Serbia, Portugal, Russia, the United Kingdom, and later Italy, Greece, Romania, and the United States) and the Central Powers (Austria-Hungary, Germany, Bulgaria, and the Ottoman Empire).",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Russia was plunged into the Russian Revolution, which threw down the Tsarist monarchy and replaced it with the communist Soviet Union.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The social revolutions sweeping through Russia also affected other European nations following The Great War: in 1919, with the Weimar Republic in Germany, and the First Austrian Republic; in 1922, with Mussolini's one party fascist government in the Kingdom of Italy, and in Ataturk's Turkish Republic, adopting the Western alphabet, and state secularism.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Economic instability, caused in part by debts incurred in the First World War and 'loans' to Germany played havoc in Europe in the late 1920s and 1930s.",
+            "arguments": {
+                "arg1": "Germany",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "An arc of uplands also exists along the north-western seaboard, which begins in the western parts of the islands of Britain and Ireland, and then continues along the mountainous, fjord-cut spine of Norway.",
+            "arguments": {
+                "arg1": "Ireland",
+                "arg2": "Ireland"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Sub-regions like Iceland, Britain, and Ireland are special cases.",
+            "arguments": {
+                "arg1": "Iceland",
+                "arg2": "Iceland"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Sub-regions like Iceland, Britain, and Ireland are special cases.",
+            "arguments": {
+                "arg1": "Ireland",
+                "arg2": "Ireland"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Berlin, Germany; Calgary, Canada; and Irkutsk, in the Asian part of Russia, lie on around the same latitude; January temperatures in Berlin average around 8 \u00b0C (14 \u00b0F) higher than those in Calgary, and they are almost 22 \u00b0C (40 \u00b0F) higher than average temperatures in Irkutsk.",
+            "arguments": {
+                "arg1": "Berlin",
+                "arg2": "Germany"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Berlin, Germany; Calgary, Canada; and Irkutsk, in the Asian part of Russia, lie on around the same latitude; January temperatures in Berlin average around 8 \u00b0C (14 \u00b0F) higher than those in Calgary, and they are almost 22 \u00b0C (40 \u00b0F) higher than average temperatures in Irkutsk.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "However, Churchill, Manitoba, Canada, is on roughly the same latitude and has an average temperature of \u22126.5 \u00b0C (20.3 \u00b0F), giving it a nearly subarctic climate.",
+            "arguments": {
+                "arg1": "Manitoba",
+                "arg2": "Canada"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The geology of Europe is hugely varied and complex, and gives rise to the wide variety of landscapes found across the continent, from the Scottish Highlands to the rolling plains of Hungary.",
+            "arguments": {
+                "arg1": "Hungary",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Europe's most significant feature is the dichotomy between highland and mountainous Southern Europe and a vast, partially underwater, northern plain ranging from Ireland in the west to the Ural Mountains in the east.",
+            "arguments": {
+                "arg1": "Ireland",
+                "arg2": "Ireland"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Although over half of Europe's original forests disappeared through the centuries of deforestation, Europe still has over one quarter of its land area as forest, such as the broadleaf and mixed forests, taiga of Scandinavia and Russia, mixed rainforests of the Caucasus and the Cork oak forests in the western Mediterranean.",
+            "arguments": {
+                "arg1": "Scandinavia",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Although over half of Europe's original forests disappeared through the centuries of deforestation, Europe still has over one quarter of its land area as forest, such as the broadleaf and mixed forests, taiga of Scandinavia and Russia, mixed rainforests of the Caucasus and the Cork oak forests in the western Mediterranean.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The country with the smallest percentage of forested area is Iceland (1%), while the most forested country is Finland (77%).",
+            "arguments": {
+                "arg1": "Iceland",
+                "arg2": "Iceland"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In the north, the taiga is a mixed spruce\u2013pine\u2013birch forest; further north within Russia and extreme northern Scandinavia, the taiga gives way to tundra as the Arctic is approached.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "A narrow east-west tongue of Eurasian grassland (the steppe) extends eastwards from Ukraine and southern Russia and ends in Hungary and traverses into taiga to the north.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Today, the brown bear lives primarily in the Balkan peninsula, Scandinavia, and Russia; a small number also persist in other countries across Europe (Austria, Pyrenees etc.),",
+            "arguments": {
+                "arg1": "Scandinavia",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Today, the brown bear lives primarily in the Balkan peninsula, Scandinavia, and Russia; a small number also persist in other countries across Europe (Austria, Pyrenees etc.),",
+            "arguments": {
+                "arg1": "Austria",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The wolf, the second largest predator in Europe after the brown bear, can be found primarily in Central and Eastern Europe and in the Balkans, with a handful of packs in pockets of Western Europe (Scandinavia, Spain, etc.).",
+            "arguments": {
+                "arg1": "Scandinavia",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "This includes (ranks according to the CIA): Germany (5), the UK (6), Russia (7), France (8), and Italy (10).",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "With the fall of communism in Central and Eastern Europe in 1991, the post-socialist states began free market reforms: Poland, Hungary, and Slovenia adopted them reasonably quickly, while Ukraine and Russia are still in the process of doing so.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "By the millennium change, the EU dominated the economy of Europe comprising the five largest European economies of the time namely Germany, the United Kingdom, France, Italy, and Spain.",
+            "arguments": {
+                "arg1": "France",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In 2010, fears of a sovereign debt crisis developed concerning some countries in Europe, especially Greece, Ireland, Spain, and Portugal.",
+            "arguments": {
+                "arg1": "Ireland",
+                "arg2": "Ireland"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In 2010, fears of a sovereign debt crisis developed concerning some countries in Europe, especially Greece, Ireland, Spain, and Portugal.",
+            "arguments": {
+                "arg1": "Portugal",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The most densely populated country in Europe (and in the world) is the microstate of Monaco.",
+            "arguments": {
+                "arg1": "Monaco",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Australia and New Zealand have large European derived populations.",
+            "arguments": {
+                "arg1": "Australia",
+                "arg2": "Australia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "A distinct non-Indo-European family of Uralic languages (Estonian, Finnish, Hungarian, Erzya, Komi, Mari, Moksha, and Udmurt) is spoken mainly in Estonia, Finland, Hungary, and parts of Russia.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        }
+    ]
+}

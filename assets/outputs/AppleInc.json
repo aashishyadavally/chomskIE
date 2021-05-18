@@ -1,0 +1,107 @@
+{
+    "document": "AppleInc.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "\n\nApple was founded by Steve Jobs, Steve Wozniak, and Ronald Wayne in April 1976 to develop and sell Wozniak's Apple I personal computer.",
+            "arguments": {
+                "arg1": "Apple",
+                "arg2": "April 1976",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "History\n1976\u20131984: Founding and incorporation\n\nApple Computer Company was founded on April 1, 1976, by Steve Jobs, Steve Wozniak, and Ronald Wayne.",
+            "arguments": {
+                "arg1": "Apple Computer Company",
+                "arg2": "April 1, 1976",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "\n\nApple Computer, Inc. was incorporated on January 3, 1977, without Wayne, who had left and sold his share of the company back to Jobs and Wozniak for $800 only twelve days after having co-founded Apple.",
+            "arguments": {
+                "arg1": "Apple Computer, Inc.",
+                "arg2": "January 3, 1977",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In July 2001, Apple acquired Spruce Technologies, a PC DVD authoring platform, to incorporate their technology into Apple's expanding portfolio of digital video projects.",
+            "arguments": {
+                "arg1": "Apple",
+                "arg2": "Spruce Technologies",
+                "arg3": "July 2001"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "Towards the end of the year, TechCrunch reported that Apple was acquiring Shazam, a company specializing in music, TV, film and advertising recognition.",
+            "arguments": {
+                "arg1": "Apple",
+                "arg2": "Shazam",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "On February 14, 2019, Apple acquired DataTiger for its digital marketing technology.",
+            "arguments": {
+                "arg1": "Apple",
+                "arg2": "DataTiger",
+                "arg3": "February 14, 2019"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The official press release explained that Apple was \"scaling back\" on trade shows in general, including Macworld Tokyo and the Apple Expo in Paris, France, primarily because the enormous successes of the Apple Retail Stores and website had rendered trade shows a minor promotional channel.",
+            "arguments": {
+                "arg1": "Paris",
+                "arg2": "France"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "On February 4, 2014, Cook met with Abdullah G\u00fcl, the President of Turkey, in Ankara to discuss the company's involvement in the Fatih project.",
+            "arguments": {
+                "arg1": "Ankara",
+                "arg2": "Turkey"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Apple has expanded its campuses in Austin, Texas concurrently with building Apple Park in Cupertino.",
+            "arguments": {
+                "arg1": "Austin",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Apple's headquarters for Europe, the Middle East and Africa (EMEA) are located in Cork in the south of Ireland.",
+            "arguments": {
+                "arg1": "Ireland",
+                "arg2": "Ireland"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Apple's headquarters for Europe, the Middle East and Africa (EMEA) are located in Cork in the south of Ireland.",
+            "arguments": {
+                "arg1": "Cork",
+                "arg2": "Europe"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "This is Apple's third office located within Israel; the first, also in Herzliya, was obtained as part of the Anobit acquisition, and the other is a research center in Haifa.",
+            "arguments": {
+                "arg1": "Haifa",
+                "arg2": "Israel"
+            }
+        }
+    ]
+}

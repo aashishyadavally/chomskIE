@@ -1,0 +1,218 @@
+{
+    "document": "ExxonMobil.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "1870 to 1911\n\nBoth Exxon and Mobil were descendants of Standard Oil, established by John D. Rockefeller and partners in 1870 as the Standard Oil Company of Ohio.",
+            "arguments": {
+                "arg1": "Both Exxon",
+                "arg2": "1870",
+                "arg3": "Ohio"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "The Anglo-American Oil Company was established in the United Kingdom in 1888.",
+            "arguments": {
+                "arg1": "The Anglo-American Oil Company",
+                "arg2": "1888",
+                "arg3": "the United Kingdom"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In 1890, Standard Oil, together with local ship merchants in Bremen established Deutsch-Amerikanische Petroleum Gesellschaft (later: Esso A.G.).",
+            "arguments": {
+                "arg1": "Standard Oil",
+                "arg2": "1890",
+                "arg3": "Bremen"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In 1891, a sale branch for the Netherlands and Belgium, American Petroleum Company, was established in Rotterdam.",
+            "arguments": {
+                "arg1": "American Petroleum Company",
+                "arg2": "1891",
+                "arg3": "the Netherlands"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In the following years it acquired or established Tropical Oil Company of Colombia (1920), Standard Oil Company of Venezuela (1921), and Creole Petroleum Company of Venezuela (1928).",
+            "arguments": {
+                "arg1": "Tropical Oil Company of Colombia",
+                "arg2": "the following years",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In the Asia-Pacific region, Jersey Standard has established through its Dutch subsidiary an exploration and production company Nederlandsche Koloniale Petroleum Maatschappij in 1912.",
+            "arguments": {
+                "arg1": "Nederlandsche Koloniale Petroleum Maatschappij",
+                "arg2": "1912",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In 1924, Jersey Standard and General Motors pooled its tetraethyllead-related patents and established the Ethyl Gasoline Corporation.",
+            "arguments": {
+                "arg1": "General Motors",
+                "arg2": "1924",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In 1930, the joint company established Hydro Patents Company to license the hydrogenation process in the United States.",
+            "arguments": {
+                "arg1": "Hydro Patents Company",
+                "arg2": "1930",
+                "arg3": "the United States"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "\n\nMobil Chemical Company was established in 1960 and Exxon Chemical Company (first named Enjay Chemicals) in 1965.",
+            "arguments": {
+                "arg1": "Mobil Chemical Company",
+                "arg2": "1960",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "For managing the Midwest and Eastern coal assets in the United States, the Monterey Coal Company was established in 1969.",
+            "arguments": {
+                "arg1": "the Monterey Coal Company",
+                "arg2": "1969",
+                "arg3": "the United States"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In April 1973, Exxon founded Solar Power Corporation, a wholly owned subsidiary for manufacturing of terrestrial photovoltaic cells.",
+            "arguments": {
+                "arg1": "Solar Power Corporation",
+                "arg2": "April 1973",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In 1980, Exxon merged its assets in the mineral industry into newly established Exxon Minerals (later ExxonMobil Coal and Minerals).",
+            "arguments": {
+                "arg1": "Exxon",
+                "arg2": "1980",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In 1994, Mobil established a subsidiary MEGAS (Mobil European Gas) which became responsible for its Mobil's natural gas operations in Europe.",
+            "arguments": {
+                "arg1": "Mobil",
+                "arg2": "1994",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "At the same year, Exxon entered into the oil shale industry by buying a 60% stake in the Colony Shale Oil Project in Colorado, United States, and 50% stake in the Rundle oil shale deposit in Queensland, Australia.",
+            "arguments": {
+                "arg1": "Australia",
+                "arg2": "Australia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "At the same year, Exxon entered into the oil shale industry by buying a 60% stake in the Colony Shale Oil Project in Colorado, United States, and 50% stake in the Rundle oil shale deposit in Queensland, Australia.",
+            "arguments": {
+                "arg1": "Queensland",
+                "arg2": "Colorado"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In 2014, the Bureau of Land Management approved their research and development project in Rio Blanco County, Colorado.",
+            "arguments": {
+                "arg1": "Colorado",
+                "arg2": "Colorado"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Upstream (oil exploration, extraction, shipping, and wholesale operations) based in Houston, Texas",
+            "arguments": {
+                "arg1": "Houston",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Chemical division based in Houston, Texas",
+            "arguments": {
+                "arg1": "Houston",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In Africa, upstream operations are concentrated in Angola where it owns 0.4 million acres (1,600 km2) offshore, Chad where it owns 46,000 acres (19,000 ha), Equatorial Guinea where it owns 0.1 million acres (400 km2) offshore, and Nigeria where it owns 0.8 million acres (3,200 km2) offshore.",
+            "arguments": {
+                "arg1": "Angola",
+                "arg2": "Africa"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In Asia, it holds 9,000 acres (3,600 ha) in Azerbaijan, 1.7 million acres (6,900 km2) in Indonesia, of which 1.3 million acres (5,300 km2) are offshore, 0.7 million acres (2,800 km2) in Iraq, 0.3 million acres (1,200 km2) in Kazakhstan, 0.2 million acres (810 km2) in Malaysia, 65,000 acres (26,000 ha) in Qatar, 10,000 acres (4,000 ha) in Yemen, 21,000 acres (8,500 ha) in Thailand, and 81,000 acres (33,000 ha) in the United Arab Emirates.",
+            "arguments": {
+                "arg1": "Iraq",
+                "arg2": "Asia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In Asia, it holds 9,000 acres (3,600 ha) in Azerbaijan, 1.7 million acres (6,900 km2) in Indonesia, of which 1.3 million acres (5,300 km2) are offshore, 0.7 million acres (2,800 km2) in Iraq, 0.3 million acres (1,200 km2) in Kazakhstan, 0.2 million acres (810 km2) in Malaysia, 65,000 acres (26,000 ha) in Qatar, 10,000 acres (4,000 ha) in Yemen, 21,000 acres (8,500 ha) in Thailand, and 81,000 acres (33,000 ha) in the United Arab Emirates.",
+            "arguments": {
+                "arg1": "Yemen",
+                "arg2": "Qatar"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Exxon is the primary brand in the rest of the United States, with the highest concentration of retail outlets located in New Jersey, Pennsylvania, Texas and in the Mid-Atlantic and Southeastern states.",
+            "arguments": {
+                "arg1": "Pennsylvania",
+                "arg2": "Pennsylvania"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Esso is ExxonMobil's primary gasoline brand worldwide except in Australia and New Zealand, where the Mobil brand is used exclusively.",
+            "arguments": {
+                "arg1": "Australia",
+                "arg2": "Australia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The July 2011 Yellowstone River oil spill was an oil spill from an ExxonMobil pipeline running from Silver Tip to Billings, Montana, which ruptured about 10 miles west of Billings on July 1, 2011, at about 11:30 pm.",
+            "arguments": {
+                "arg1": "Billings",
+                "arg2": "Montana"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "On March 29, 2013, the Pegasus Pipeline, owned by ExxonMobil and carrying Canadian Wabasca heavy crude, ruptured in Mayflower, Arkansas, releasing about 3,190 barrels (507 m3) of oil and forcing the evacuation of 22 homes.",
+            "arguments": {
+                "arg1": "Arkansas",
+                "arg2": "Arkansas"
+            }
+        }
+    ]
+}

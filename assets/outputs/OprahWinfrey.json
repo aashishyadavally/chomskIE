@@ -1,0 +1,89 @@
+{
+    "document": "OprahWinfrey.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "\n\nWinfrey was born into poverty in rural Mississippi to a teenage single mother and later raised in inner-city Milwaukee.",
+            "arguments": {
+                "arg1": "Winfrey",
+                "arg2": "",
+                "arg3": "rural Mississippi"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "She has stated that she was molested during her childhood and early teens and became pregnant at 14; her son was born prematurely and died in infancy.",
+            "arguments": {
+                "arg1": "her son",
+                "arg2": "",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "She was born in Kosciusko, Mississippi, to an unmarried teenage mother.",
+            "arguments": {
+                "arg1": "She",
+                "arg2": "",
+                "arg3": "Kosciusko"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "As well as hosting and appearing on television shows, Winfrey co-founded the women's cable television network Oxygen.",
+            "arguments": {
+                "arg1": "the women's cable television network",
+                "arg2": "",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "At age six, Winfrey moved to an inner-city neighborhood in Milwaukee, Wisconsin, with her mother, who was less supportive and encouraging than her grandmother had been, largely as a result of the long hours she worked as a maid.",
+            "arguments": {
+                "arg1": "Milwaukee",
+                "arg2": "Wisconsin"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "By 1962, Lee was having difficulty raising both daughters so Winfrey was temporarily sent to live with Vernon in Nashville, Tennessee.",
+            "arguments": {
+                "arg1": "Tennessee",
+                "arg2": "Tennessee"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Winfrey also owns a house in Lavallette, New Jersey; an apartment in Chicago; an estate on Fisher Island, Florida; a ski house in Telluride, Colorado; and properties on Maui, Hawaii, Antigua and Orcas Island in Washington State.",
+            "arguments": {
+                "arg1": "Colorado",
+                "arg2": "Colorado"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "An analysis by two economists at the University of Maryland, College Park estimated that Winfrey's endorsement was responsible for between 420,000 and 1,600,000 votes for Obama in the Democratic primary alone, based on a sample of states that did not include Texas, Michigan, North Dakota, Kansas, or Alaska.",
+            "arguments": {
+                "arg1": "Kansas",
+                "arg2": "Kansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "As of 2012, Winfrey had also given over 400 scholarships to Morehouse College in Atlanta, Georgia.",
+            "arguments": {
+                "arg1": "Atlanta",
+                "arg2": "Georgia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Homes were built in Texas, Mississippi, Louisiana, and Alabama before the one-year anniversary of Hurricanes Katrina and Rita.",
+            "arguments": {
+                "arg1": "Alabama",
+                "arg2": "Alabama"
+            }
+        }
+    ]
+}

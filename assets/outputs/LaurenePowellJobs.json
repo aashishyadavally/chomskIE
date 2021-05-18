@@ -1,0 +1,40 @@
+{
+    "document": "LaurenePowellJobs.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "Their son, Reed, was born September 1991, followed by daughters Erin in 1995 and Eve in 1998.",
+            "arguments": {
+                "arg1": "Their son",
+                "arg2": "1995",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "She was born in 1978.",
+            "arguments": {
+                "arg1": "She",
+                "arg2": "1978",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "\n\nIn 2004, Powell Jobs founded the Emerson Collective, an organization that supports social entrepreneurs and organizations working in education and immigration reform, social justice, media and journalism and conservation through partnerships, grants and investments.",
+            "arguments": {
+                "arg1": "the Emerson Collective",
+                "arg2": "2004",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "College Track has facilities in East Palo Alto, Sacramento, San Francisco, Oakland, Watts, Boyle Heights, New Orleans, Aurora, Colorado, Denver, and the Washington, D.C., area. \"",
+            "arguments": {
+                "arg1": "Denver",
+                "arg2": "Colorado"
+            }
+        }
+    ]
+}

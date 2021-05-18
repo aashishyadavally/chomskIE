@@ -1,0 +1,47 @@
+{
+    "document": "Richardson_Texas.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "Foreign-born population\n\nBy 1990 10% of the Richardson population was not born in the United States, which increased to 18.1% in 2000.",
+            "arguments": {
+                "arg1": "\n\n",
+                "arg2": "2000",
+                "arg3": "the United States"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "The City Council established the library as a city department in 1958 and in 1959 the library moved into a newly constructed building at 310 Tyler Street.",
+            "arguments": {
+                "arg1": "The City Council",
+                "arg2": "1958",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Settlers from Kentucky and Tennessee came to the Richardson area in the 1840s.",
+            "arguments": {
+                "arg1": "Tennessee",
+                "arg2": "Tennessee"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The cities of Dallas, Plano and Garland, Texas constitute almost all of the Richardson border apart from the municipality's extreme northeastern \"panhandle.\"",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Located at 2101 Waterview Pkwy, in Richardson, Texas, this new campus allows easier access for those who live near Dallas and surrounding areas: https://www.thechicagoschool.edu/dallas/",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        }
+    ]
+}

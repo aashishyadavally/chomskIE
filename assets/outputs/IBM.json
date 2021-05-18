@@ -1,0 +1,144 @@
+{
+    "document": "IBM.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "The company began in 1911, founded in Endicott, New York, as the Computing-Tabulating-Recording Company (CTR) and was renamed \"International Business Machines\" in 1924.",
+            "arguments": {
+                "arg1": "CTR",
+                "arg2": "1911",
+                "arg3": "Endicott"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "\n\nResearch\nResearch has been a part of IBM since its founding, and its organized efforts trace their roots back to 1945, when the Watson Scientific Computing Laboratory was founded at Columbia University in New York City, converting a renovated fraternity house on Manhattan's West Side into IBM's first laboratory.",
+            "arguments": {
+                "arg1": "IBM",
+                "arg2": "1945",
+                "arg3": "New York City"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Other programs recognize years of service such as the Quarter Century Club established in 1924, and sellers are eligible to join the Hundred Percent Club, composed of IBM salesmen who meet their quotas, convened in Atlantic City, New Jersey.",
+            "arguments": {
+                "arg1": "the Quarter Century Club",
+                "arg2": "1924",
+                "arg3": "Atlantic City"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The five companies had 1,300 employees and offices and plants in Endicott and Binghamton, New York; Dayton, Ohio; Detroit, Michigan; Washington, D.C.; and Toronto.",
+            "arguments": {
+                "arg1": "Detroit",
+                "arg2": "Michigan"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The five companies had 1,300 employees and offices and plants in Endicott and Binghamton, New York; Dayton, Ohio; Detroit, Michigan; Washington, D.C.; and Toronto.",
+            "arguments": {
+                "arg1": "Binghamton",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The five companies had 1,300 employees and offices and plants in Endicott and Binghamton, New York; Dayton, Ohio; Detroit, Michigan; Washington, D.C.; and Toronto.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "Ohio"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "During Watson's first four years, revenues reached $9 million and the company's operations expanded to Europe, South America, Asia and Australia.",
+            "arguments": {
+                "arg1": "Australia",
+                "arg2": "Australia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Outside of New York, major campuses in the United States include Austin, Texas; Research Triangle Park (Raleigh-Durham), North Carolina; Rochester, Minnesota; and Silicon Valley, California.",
+            "arguments": {
+                "arg1": "Austin",
+                "arg2": "Minnesota"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Outside of New York, major campuses in the United States include Austin, Texas; Research Triangle Park (Raleigh-Durham), North Carolina; Rochester, Minnesota; and Silicon Valley, California.",
+            "arguments": {
+                "arg1": "Rochester",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Towers occupied by IBM include 1250 Ren\u00e9-L\u00e9vesque (Montreal, Canada), Tour Descartes (Paris, France), and One Atlantic Center (Atlanta, Georgia, USA).",
+            "arguments": {
+                "arg1": "Georgia",
+                "arg2": "Georgia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Towers occupied by IBM include 1250 Ren\u00e9-L\u00e9vesque (Montreal, Canada), Tour Descartes (Paris, France), and One Atlantic Center (Atlanta, Georgia, USA).",
+            "arguments": {
+                "arg1": "Paris",
+                "arg2": "USA"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Towers occupied by IBM include 1250 Ren\u00e9-L\u00e9vesque (Montreal, Canada), Tour Descartes (Paris, France), and One Atlantic Center (Atlanta, Georgia, USA).",
+            "arguments": {
+                "arg1": "Atlanta",
+                "arg2": "France"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In Beijing, China, IBM occupies Pangu Plaza, the city's seventh tallest building and overlooking Beijing National Stadium (\"Bird's Nest\"), home to the 2008 Summer Olympics.",
+            "arguments": {
+                "arg1": "Beijing",
+                "arg2": "China"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Other notable buildings include the IBM Rome Software Lab (Rome, Italy), the Hursley House (Winchester, UK), 330 North Wabash (Chicago, Illinois, United States), the Cambridge Scientific Center (Cambridge, Massachusetts, United States), the IBM Toronto Software Lab (Toronto, Canada), the IBM Building, Johannesburg (Johannesburg, South Africa), the IBM Building (Seattle) (Seattle, Washington, United States), the IBM Hakozaki Facility (Tokyo, Japan), the IBM Yamato Facility (Yamato, Japan), the IBM Canada Head Office Building (Ontario, Canada) and the Watson IoT Headquarters (Munich, Germany).",
+            "arguments": {
+                "arg1": "Chicago",
+                "arg2": "Japan"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Other notable buildings include the IBM Rome Software Lab (Rome, Italy), the Hursley House (Winchester, UK), 330 North Wabash (Chicago, Illinois, United States), the Cambridge Scientific Center (Cambridge, Massachusetts, United States), the IBM Toronto Software Lab (Toronto, Canada), the IBM Building, Johannesburg (Johannesburg, South Africa), the IBM Building (Seattle) (Seattle, Washington, United States), the IBM Hakozaki Facility (Tokyo, Japan), the IBM Yamato Facility (Yamato, Japan), the IBM Canada Head Office Building (Ontario, Canada) and the Watson IoT Headquarters (Munich, Germany).",
+            "arguments": {
+                "arg1": "Rome",
+                "arg2": "Illinois"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Other notable buildings include the IBM Rome Software Lab (Rome, Italy), the Hursley House (Winchester, UK), 330 North Wabash (Chicago, Illinois, United States), the Cambridge Scientific Center (Cambridge, Massachusetts, United States), the IBM Toronto Software Lab (Toronto, Canada), the IBM Building, Johannesburg (Johannesburg, South Africa), the IBM Building (Seattle) (Seattle, Washington, United States), the IBM Hakozaki Facility (Tokyo, Japan), the IBM Yamato Facility (Yamato, Japan), the IBM Canada Head Office Building (Ontario, Canada) and the Watson IoT Headquarters (Munich, Germany).",
+            "arguments": {
+                "arg1": "Seattle",
+                "arg2": "Washington"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Other notable buildings include the IBM Rome Software Lab (Rome, Italy), the Hursley House (Winchester, UK), 330 North Wabash (Chicago, Illinois, United States), the Cambridge Scientific Center (Cambridge, Massachusetts, United States), the IBM Toronto Software Lab (Toronto, Canada), the IBM Building, Johannesburg (Johannesburg, South Africa), the IBM Building (Seattle) (Seattle, Washington, United States), the IBM Hakozaki Facility (Tokyo, Japan), the IBM Yamato Facility (Yamato, Japan), the IBM Canada Head Office Building (Ontario, Canada) and the Watson IoT Headquarters (Munich, Germany).",
+            "arguments": {
+                "arg1": "Tokyo",
+                "arg2": "Italy"
+            }
+        }
+    ]
+}

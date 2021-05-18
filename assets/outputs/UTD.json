@@ -1,0 +1,58 @@
+{
+    "document": "UTD.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "The institution, established in 1961 as the Graduate Research Center of the Southwest and later renamed the Southwest Center for Advanced Studies (SCAS), began as a research arm of Texas Instruments.",
+            "arguments": {
+                "arg1": "the Graduate Research Center",
+                "arg2": "1961",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "To compensate for this shortage they established the Graduate Research Center of the Southwest in 1961.",
+            "arguments": {
+                "arg1": "the Graduate Research Center",
+                "arg2": "1961",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "The McDermott Scholars Program, established at UT Dallas in 2000, provides full scholarships and unique cultural and civic opportunities to academically talented high school students.",
+            "arguments": {
+                "arg1": "The McDermott Scholars Program",
+                "arg2": "2000",
+                "arg3": "UT Dallas"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "\n\nThe Alan G. MacDiarmid NanoTech Institute was established in 2001 when Ray Baughman, a pioneering nanotechnologist, became the Robert A. Welch Distinguished Chair in Chemistry and director of the university's NanoTech Institute.",
+            "arguments": {
+                "arg1": "The Alan G. MacDiarmid NanoTech Institute",
+                "arg2": "2001",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In 2009, UTD TV, an internet-based campus TV station, was founded and launched by students.",
+            "arguments": {
+                "arg1": "UTD TV",
+                "arg2": "2009",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In 1969, the founders bequeathed SCAS to the state of Texas, officially creating The University of Texas at Dallas.",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        }
+    ]
+}

@@ -1,0 +1,245 @@
+{
+    "document": "China.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "The Chinese Civil War resulted in a division of territory in 1949, when the Communist Party of China established the People's Republic of China, a unitary one-party sovereign state on Mainland China, while the Kuomintang-led government retreated to the island of Taiwan.",
+            "arguments": {
+                "arg1": "The Chinese Civil War",
+                "arg2": "1949",
+                "arg3": "Taiwan"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In 1271, the Mongol leader Kublai Khan established the Yuan dynasty; the Yuan conquered the last remnant of the Song dynasty in 1279.",
+            "arguments": {
+                "arg1": "the Yuan",
+                "arg2": "1271",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "A peasant named Zhu Yuanzhang overthrew the Yuan in 1368 and founded the Ming dynasty as the Hongwu Emperor.",
+            "arguments": {
+                "arg1": "the Yuan",
+                "arg2": "1368",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Although Cixi sponsored a program of reforms, the Xinhai Revolution of 1911\u201312 brought an end to the Qing dynasty and established the Republic of China.",
+            "arguments": {
+                "arg1": "Cixi",
+                "arg2": "the Qing dynasty",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "On 1 January 1912, the Republic of China was established, and Sun Yat-sen of the Kuomintang (the KMT or Nationalist Party) was proclaimed provisional president.",
+            "arguments": {
+                "arg1": "the Kuomintang",
+                "arg2": "1 January 1912",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In 2008, China established dim sum bond market and expanded the Cross-Border Trade RMB Settlement Pilot Project, which helps establish pools of offshore RMB liquidity.",
+            "arguments": {
+                "arg1": "the Cross-Border Trade RMB Settlement Pilot Project",
+                "arg2": "2008",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "\n\nThe first leaders of the People's Republic of China were born into the traditional imperial order, but were influenced by the May Fourth Movement and reformist ideals.",
+            "arguments": {
+                "arg1": "The first leaders",
+                "arg2": "",
+                "arg3": "the People's Republic of China"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "China's professional football league, now known as Chinese Super League, was established in 1994, it is the largest football market in Asia.",
+            "arguments": {
+                "arg1": "Chinese Super League",
+                "arg2": "1994",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Han expanded the empire's territory considerably, with military campaigns reaching Central Asia, Mongolia, South Korea, and Yunnan, and the recovery of Guangdong and northern Vietnam from Nanyue.",
+            "arguments": {
+                "arg1": "Mongolia",
+                "arg2": "Mongolia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "After the Southern Ming ended, the further conquest of the Dzungar Khanate added Mongolia, Tibet and Xinjiang to the empire.",
+            "arguments": {
+                "arg1": "Mongolia",
+                "arg2": "Mongolia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Kuomintang moved the nation's capital to Nanjing and implemented \"political tutelage\", an intermediate stage of political development outlined in Sun Yat-sen's San-min program for transforming China into a modern democratic state.",
+            "arguments": {
+                "arg1": "Nanjing",
+                "arg2": "China"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Tropical and seasonal rainforests, though confined to Yunnan and Hainan Island, contain a quarter of all the animal and plant species found in China.",
+            "arguments": {
+                "arg1": "Yunnan",
+                "arg2": "China"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The People's Republic of China is the second-largest country in the world by land area after Russia, and is either the third- or fourth-largest by total area, after Russia, Canada and, depending on the definition of total area, the United States.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "China borders 14 nations, more than any other country except Russia, which also borders 14.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "China extends across much of East Asia, bordering Vietnam, Laos, and Myanmar (Burma) in Southeast Asia; India, Bhutan, Nepal, Afghanistan, and Pakistan in South Asia; Tajikistan, Kyrgyzstan and Kazakhstan in Central Asia; and Russia, Mongolia, and North Korea in Inner Asia and Northeast Asia.",
+            "arguments": {
+                "arg1": "Mongolia",
+                "arg2": "Mongolia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "China extends across much of East Asia, bordering Vietnam, Laos, and Myanmar (Burma) in Southeast Asia; India, Bhutan, Nepal, Afghanistan, and Pakistan in South Asia; Tajikistan, Kyrgyzstan and Kazakhstan in Central Asia; and Russia, Mongolia, and North Korea in Inner Asia and Northeast Asia.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Along with Brazil, Russia, India and South Africa, China is a member of the BRICS group of emerging major economies and hosted the group's third official summit at Sanya, Hainan in April 2011.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "China has a close economic and military relationship with Russia, and the two states often vote in unison in the UN Security Council.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The EAS, which includes ASEAN Plus Three, India, Australia and New Zealand, held its inaugural summit in 2005.",
+            "arguments": {
+                "arg1": "Australia",
+                "arg2": "Australia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "China is also a founding member of the Shanghai Cooperation Organization (SCO), along with Russia and the Central Asian republics.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "This was followed with bilateral agreements to settle trades directly in renminbi with Russia, Japan, Australia, Singapore, the United Kingdom, and Canada.",
+            "arguments": {
+                "arg1": "Australia",
+                "arg2": "Australia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "This was followed with bilateral agreements to settle trades directly in renminbi with Russia, Japan, Australia, Singapore, the United Kingdom, and Canada.",
+            "arguments": {
+                "arg1": "Singapore",
+                "arg2": "Singapore"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "This was followed with bilateral agreements to settle trades directly in renminbi with Russia, Japan, Australia, Singapore, the United Kingdom, and Canada.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "China is developing its own satellite navigation system, dubbed Beidou, which began offering commercial navigation services across Asia in 2012 and it started providing global services by the end of 2018.Now China belongs to the elite group of three countries -- US and Russia being the other two members -- that provide global satellite navigation.",
+            "arguments": {
+                "arg1": "China",
+                "arg2": "Asia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "China is developing its own satellite navigation system, dubbed Beidou, which began offering commercial navigation services across Asia in 2012 and it started providing global services by the end of 2018.Now China belongs to the elite group of three countries -- US and Russia being the other two members -- that provide global satellite navigation.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "China has over 160 cities with a population of over one million, including the seven megacities (cities with a population of over 10 million) of Chongqing, Shanghai, Beijing, Guangzhou, Tianjin, Shenzhen, and Wuhan.",
+            "arguments": {
+                "arg1": "Wuhan",
+                "arg2": "China"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In 2010, the annual education expenditure per secondary school student in Beijing totalled \u00a520,023, while in Guizhou, one of the poorest provinces in China, only totalled \u00a53,204.",
+            "arguments": {
+                "arg1": "Beijing",
+                "arg2": "China"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "China hosted the 2008 Summer Olympics in Beijing, where its athletes received 51 gold medals \u2013 the highest number of gold medals of any participating nation that year.",
+            "arguments": {
+                "arg1": "Beijing",
+                "arg2": "China"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "China hosted the 2013 East Asian Games in Tianjin and the 2014 Summer Youth Olympics in Nanjing.",
+            "arguments": {
+                "arg1": "Tianjin",
+                "arg2": "China"
+            }
+        }
+    ]
+}

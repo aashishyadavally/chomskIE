@@ -1,0 +1,48 @@
+{
+    "document": "Amazon_com.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "\n\nAmazon was founded by Jeff Bezos in Bellevue, Washington, in July 1994.",
+            "arguments": {
+                "arg1": "Amazon",
+                "arg2": "July 1994",
+                "arg3": "Bellevue"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "History\n\nJeff Bezos founded Amazon in July 1994.",
+            "arguments": {
+                "arg1": "Amazon",
+                "arg2": "July 1994",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In 2017, Amazon acquired Whole Foods Market for US$13.4 billion, which vastly increased Amazon's presence as a brick-and-mortar retailer.",
+            "arguments": {
+                "arg1": "Amazon",
+                "arg2": "Whole Foods Market",
+                "arg3": "2017"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Amazon filed communications license documents with the U.S. regulatory authorities the FCC in July 2019, which included information that the wholly owned Amazon subsidiary that intended to deploy the satellite constellation was Kuiper Systems LLC, based in Seattle, Washington.",
+            "arguments": {
+                "arg1": "Seattle",
+                "arg2": "Washington"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Amazon first launched its distribution network in 1997 with two fulfillment centers in Seattle and New Castle, Delaware.",
+            "arguments": {
+                "arg1": "Delaware",
+                "arg2": "Delaware"
+            }
+        }
+    ]
+}

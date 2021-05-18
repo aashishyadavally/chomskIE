@@ -1,0 +1,39 @@
+{
+    "document": "MelindaGates.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "In 2000, she co-founded the Bill & Melinda Gates Foundation, the world's largest private charitable organization.",
+            "arguments": {
+                "arg1": "the Bill & Melinda Gates Foundation",
+                "arg2": "2000",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Early life\n\nMelinda Ann French was born on August 15, 1964 in Dallas, Texas.",
+            "arguments": {
+                "arg1": "Early life",
+                "arg2": "August 15, 1964",
+                "arg3": "Dallas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Melinda Ann French was born on August 15, 1964 in Dallas, Texas.",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In 2007, Gates received an honorary doctorate in medicine from the Karolinska Institute in Stockholm, Sweden.",
+            "arguments": {
+                "arg1": "Stockholm",
+                "arg2": "Sweden"
+            }
+        }
+    ]
+}

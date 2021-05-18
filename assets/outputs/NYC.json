@@ -1,0 +1,130 @@
+{
+    "document": "NYC.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "In 1754, Columbia University was founded under charter by King George II as King's College in Lower Manhattan.",
+            "arguments": {
+                "arg1": "Columbia University",
+                "arg2": "1754",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Tech:NYC, founded in 2016, is a non-profit organization which represents New York City's technology industry with government, civic institutions, in business, and in the media, and whose primary goals are to further augment New York's substantial tech talent base and to advocate for policies that will nurture tech companies to grow in the city.",
+            "arguments": {
+                "arg1": "NYC",
+                "arg2": "2016",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Major tabloid newspapers in the city include: The New York Daily News, which was founded in 1919 by Joseph Medill Patterson and The New York Post, founded in 1801 by Alexander Hamilton.",
+            "arguments": {
+                "arg1": "The New York Daily News",
+                "arg2": "1919",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "The oldest public-access television channel in the United States is the Manhattan Neighborhood Network, founded in 1971.",
+            "arguments": {
+                "arg1": "the Manhattan Neighborhood Network",
+                "arg2": "1971",
+                "arg3": "the United States"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Wealthy business magnates in the 19th century built a network of major cultural institutions, such as the famed Carnegie Hall and the Metropolitan Museum of Art, that would become internationally established.",
+            "arguments": {
+                "arg1": "the famed Carnegie Hall",
+                "arg2": "the 19th century",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "New York City is situated in the Northeastern United States, in southeastern New York State, approximately halfway between Washington, D.C. and Boston.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The ten largest sources of foreign-born individuals in the city as of 2011 were the Dominican Republic, China, Mexico, Guyana, Jamaica, Ecuador, Haiti, India, Russia, and Trinidad and Tobago, while the Bangladeshi-born immigrant population has become one of the fastest growing in the city, counting over 74,000 by 2011.",
+            "arguments": {
+                "arg1": "Jamaica",
+                "arg2": "Jamaica"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The ten largest sources of foreign-born individuals in the city as of 2011 were the Dominican Republic, China, Mexico, Guyana, Jamaica, Ecuador, Haiti, India, Russia, and Trinidad and Tobago, while the Bangladeshi-born immigrant population has become one of the fastest growing in the city, counting over 74,000 by 2011.",
+            "arguments": {
+                "arg1": "Haiti",
+                "arg2": "Haiti"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The ten largest sources of foreign-born individuals in the city as of 2011 were the Dominican Republic, China, Mexico, Guyana, Jamaica, Ecuador, Haiti, India, Russia, and Trinidad and Tobago, while the Bangladeshi-born immigrant population has become one of the fastest growing in the city, counting over 74,000 by 2011.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Ecuador, Colombia, Guyana, Peru, and Brazil were the top source countries from South America for legal immigrants to the New York City region in 2013; the Dominican Republic, Jamaica, Haiti, and Trinidad and Tobago in the Caribbean; Egypt, Ghana, and Nigeria from Africa; and El Salvador, Honduras, and Guatemala in Central America.",
+            "arguments": {
+                "arg1": "Haiti",
+                "arg2": "Jamaica"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Ecuador, Colombia, Guyana, Peru, and Brazil were the top source countries from South America for legal immigrants to the New York City region in 2013; the Dominican Republic, Jamaica, Haiti, and Trinidad and Tobago in the Caribbean; Egypt, Ghana, and Nigeria from Africa; and El Salvador, Honduras, and Guatemala in Central America.",
+            "arguments": {
+                "arg1": "Ghana",
+                "arg2": "Haiti"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Ecuador, Colombia, Guyana, Peru, and Brazil were the top source countries from South America for legal immigrants to the New York City region in 2013; the Dominican Republic, Jamaica, Haiti, and Trinidad and Tobago in the Caribbean; Egypt, Ghana, and Nigeria from Africa; and El Salvador, Honduras, and Guatemala in Central America.",
+            "arguments": {
+                "arg1": "Jamaica",
+                "arg2": "Africa"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "By 2002, New York City's crime rate was similar to that of Provo, Utah, and was ranked 197th in crime among the 216 U.S. cities with populations greater than 100,000.",
+            "arguments": {
+                "arg1": "Provo",
+                "arg2": "Utah"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "New York City has been described as the cultural capital of the world by the diplomatic consulates of Iceland and Latvia and by New York's Baruch College.",
+            "arguments": {
+                "arg1": "Iceland",
+                "arg2": "Iceland"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "For intercity rail, New York City is served by Amtrak, whose busiest station by a significant margin is Pennsylvania Station on the West Side of Manhattan, from which Amtrak provides connections to Boston, Philadelphia, and Washington, D.C. along the Northeast Corridor, and long-distance train service to other North American cities.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        }
+    ]
+}

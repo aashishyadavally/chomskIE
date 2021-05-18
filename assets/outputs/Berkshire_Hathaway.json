@@ -1,0 +1,144 @@
+{
+    "document": "Berkshire_Hathaway.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "History\n\nBerkshire Hathaway traces its roots to a textile manufacturing company established by Oliver Chace in 1839 as the Valley Falls Company in Valley Falls, Rhode Island.",
+            "arguments": {
+                "arg1": "the Valley Falls Company",
+                "arg2": "1839",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Chace founded his first textile mill in 1806.",
+            "arguments": {
+                "arg1": "his first textile mill",
+                "arg2": "1806",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In 1929, the Valley Falls Company merged with the Berkshire Cotton Manufacturing Company established in 1889, in Adams, Massachusetts.",
+            "arguments": {
+                "arg1": "the Valley Falls Company",
+                "arg2": "1929",
+                "arg3": "Adams"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In 1955, Berkshire Fine Spinning Associates merged with the Hathaway Manufacturing Company which had been founded in 1888 in New Bedford, Massachusetts by Horatio Hathaway with profits from whaling and the China Trade.",
+            "arguments": {
+                "arg1": "Berkshire Fine Spinning Associates",
+                "arg2": "1955",
+                "arg3": "New Bedford"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In February, it purchased Johns Manville which was established in 1858 and manufactures fiber glass wool insulation products for homes and commercial buildings, as well as pipe, duct and equipment insulation products.",
+            "arguments": {
+                "arg1": "Johns Manville",
+                "arg2": "February",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Flight services\n\nIn 1996, Berkshire acquired FlightSafety International Inc. (or FSI), founded in 1951 by Albert Lee Ueltschi.",
+            "arguments": {
+                "arg1": "Berkshire",
+                "arg2": "1996",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "On May 1, 2008, Mitek acquired Hohmann & Barnard, a fabricator of anchors and reinforcement systems for masonry and on October 3 of that year, Mitek acquired Blok-Lok, Ltd. of Toronto, Canada.",
+            "arguments": {
+                "arg1": "Mitek",
+                "arg2": "Hohmann & Barnard",
+                "arg3": "May 1, 2008"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "On May 1, 2008, Mitek acquired Hohmann & Barnard, a fabricator of anchors and reinforcement systems for masonry and on October 3 of that year, Mitek acquired Blok-Lok, Ltd. of Toronto, Canada.",
+            "arguments": {
+                "arg1": "Mitek",
+                "arg2": "Blok-Lok, Ltd.",
+                "arg3": "May 1, 2008"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In 1996, Berkshire acquired FlightSafety International Inc. (or FSI), founded in 1951 by Albert Lee Ueltschi.",
+            "arguments": {
+                "arg1": "Berkshire",
+                "arg2": "FlightSafety International Inc.",
+                "arg3": "1996"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In 2002, Berkshire acquired The Pampered Chef, Ltd., the largest direct seller of kitchen tools in the United States.",
+            "arguments": {
+                "arg1": "Berkshire",
+                "arg2": "The Pampered Chef, Ltd.",
+                "arg3": "2002"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In 2006 Berkshire Hathaway Inc. acquired Russell Corporation for $600 million, in fact getting most shares and brands in many sports leagues \u2013 including Spalding NBA official basketballs, BIKE Athletic Company protections, AAI (American Athletic) Gymnastics' tables, bars, rings, horses or Dudley softball balls and accessories.",
+            "arguments": {
+                "arg1": "Berkshire Hathaway Inc.",
+                "arg2": "Russell Corporation",
+                "arg3": "2006"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Berkshire Hathaway Inc. is an American multinational conglomerate holding company headquartered in Omaha, Nebraska, United States.",
+            "arguments": {
+                "arg1": "Nebraska",
+                "arg2": "Nebraska"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Berkshire's annual shareholders' meetings take place at the CHI Health Center in Omaha, Nebraska.",
+            "arguments": {
+                "arg1": "Omaha",
+                "arg2": "Nebraska"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "General Re's reinsurance operations are primarily based in Stamford, Connecticut, and Cologne, Germany.",
+            "arguments": {
+                "arg1": "Cologne",
+                "arg2": "Germany"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "On August 7, 2003, Berkshire acquired Clayton Homes, Inc. Clayton, headquartered near Knoxville, Tennessee, is a vertically integrated manufactured housing company.",
+            "arguments": {
+                "arg1": "Knoxville",
+                "arg2": "Tennessee"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Berkshire Hathaway Energy's HomeServices of America (see complete list of companies) is a residential real estate brokerage firm based in Minneapolis, Minnesota and founded in 1998.",
+            "arguments": {
+                "arg1": "Minneapolis",
+                "arg2": "Minnesota"
+            }
+        }
+    ]
+}

@@ -1,0 +1,152 @@
+{
+    "document": "UnitedStates.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "The continent's first elected legislative assembly, Virginia's House of Burgesses created in 1619, the Mayflower Compact, signed by the Pilgrims before disembarking, and the Fundamental Orders of Connecticut, established precedents for the pattern of representative self-government and constitutionalism that would develop throughout the American colonies.",
+            "arguments": {
+                "arg1": "Virginia's House of Burgesses",
+                "arg2": "1619",
+                "arg3": "Connecticut"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In 1777, the Articles of Confederation established a weak government that operated until 1789.",
+            "arguments": {
+                "arg1": "the Articles of Confederation",
+                "arg2": "1777",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Since the general election of 1856, the major parties have been the Democratic Party, founded in 1824, and the Republican Party, founded in 1854.",
+            "arguments": {
+                "arg1": "the Democratic Party",
+                "arg2": "1856",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The capital is Washington, D.C., and the largest city by population is New York City.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The State of Alaska is in the northwest corner of North America, bordered by Canada to the east and across the Bering Strait from Russia to the west.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Mainland expansion also included the purchase of Alaska from Russia in 1867.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The United States developed the first nuclear weapons and used them on Japan in the cities of Hiroshima and Nagasaki; causing the Japanese to surrender on September 2, ending World War II.",
+            "arguments": {
+                "arg1": "Nagasaki",
+                "arg2": "Japan"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "After the Cold War, the conflict in the Middle East triggered a crisis in 1990, when Iraq under Saddam Hussein invaded and attempted to annex Kuwait, an ally of the United States.",
+            "arguments": {
+                "arg1": "Kuwait",
+                "arg2": "Kuwait"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Fearing that the instability would spread to other regions, President George H.W. Bush launched Operation Desert Shield, a defensive force buildup in Saudi Arabia, and Operation Desert Storm, in a staging titled the Gulf War; waged by coalition forces from 34 nations, led by the United States against Iraq ending in the successful expulsion of Iraqi forces from Kuwait, restoring the former monarchy.",
+            "arguments": {
+                "arg1": "Kuwait",
+                "arg2": "Kuwait"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "On September 11, 2001, Al-Qaeda terrorists struck the World Trade Center in New York City and the Pentagon near Washington, D.C., killing nearly 3,000 people.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Measured by only land area, the United States is third in size behind Russia and China, just ahead of Canada.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The United States is the world's third- or fourth-largest nation by total area (land and water), ranking behind Russia and Canada and just above or below China.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Rocky Mountains, at the western edge of the Great Plains, extend north to south across the country, reaching altitudes higher than 14,000 feet (4,300 m) in Colorado.",
+            "arguments": {
+                "arg1": "Colorado",
+                "arg2": "Colorado"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In 2013, the highest teenage birth rate was in Alabama, and the lowest in Wyoming.",
+            "arguments": {
+                "arg1": "Alabama",
+                "arg2": "Alabama"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Almost all countries have embassies in Washington, D.C., and many have consulates around the country.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The United States has a \"Special Relationship\" with the United Kingdom and strong ties with Canada, Australia, New Zealand, the Philippines, Japan, South Korea, Israel, and several European Union countries, including France, Italy, Germany, and Spain.",
+            "arguments": {
+                "arg1": "Australia",
+                "arg2": "Australia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The U.S. exercises full international defense authority and responsibility for three sovereign nations through Compact of Free Association with Micronesia, the Marshall Islands and Palau.",
+            "arguments": {
+                "arg1": "Palau",
+                "arg2": "Palau"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In 2009, the United States had the third-highest workforce productivity per person in the world, behind Luxembourg and Norway.",
+            "arguments": {
+                "arg1": "Luxembourg",
+                "arg2": "Luxembourg"
+            }
+        }
+    ]
+}

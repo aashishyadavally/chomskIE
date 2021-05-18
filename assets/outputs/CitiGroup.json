@@ -1,0 +1,49 @@
+{
+    "document": "CitiGroup.txt",
+    "extraction": [
+        {
+            "template": "ACQUIRE",
+            "sentences": "During this period, Travelers acquired Shearson Lehman\u2014a retail brokerage and asset management firm that was headed by Weill until 1985\u2014and merged it with Smith Barney.",
+            "arguments": {
+                "arg1": "Travelers",
+                "arg2": "Shearson Lehman",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In November 1997, Travelers Group (which had been renamed again in April 1995 when they merged with Aetna Property and Casualty, Inc.), acquired Salomon Brothers, a major bond dealer and bulge bracket investment bank, in a $9 billion transaction.",
+            "arguments": {
+                "arg1": "Travelers Group",
+                "arg2": "Salomon Brothers",
+                "arg3": "November 1997"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In 2000, Citigroup acquired Associates First Capital Corporation for $31.1 billion in stock, which, until 1989, had been owned by Gulf+Western (now part of National Amusements), and later by Ford Motor Credit Company.",
+            "arguments": {
+                "arg1": "Citigroup",
+                "arg2": "Associates First Capital Corporation",
+                "arg3": "2000"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "In November 2015, Springleaf acquired OneMain Financial from Citigroup.",
+            "arguments": {
+                "arg1": "Springleaf",
+                "arg2": "OneMain Financial",
+                "arg3": "November 2015"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In 2011, Citi was the first bank to introduce digitized Smart Banking branches in Washington, D.C., New York, Tokyo and Busan (South Korea) while it continued renovating its entire branch network.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        }
+    ]
+}

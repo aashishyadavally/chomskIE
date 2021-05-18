@@ -1,0 +1,154 @@
+{
+    "document": "Washington_State.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "In 1836, a group of missionaries, including Marcus Whitman, established several missions and Whitman's own settlement Waiilatpu, in what is now southeastern Washington state, near present day Walla Walla County, in territory of both the Cayuse and the Nez Perce Indian tribes.",
+            "arguments": {
+                "arg1": "Walla Walla County",
+                "arg2": "1836",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Whitman's settlement would in 1843 help the Oregon Trail, the overland emigration route to the west, get established for thousands of emigrants in following decades.",
+            "arguments": {
+                "arg1": "the Oregon Trail",
+                "arg2": "1843",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "\n\nFort Nisqually, a farm and trading post of the Hudson's Bay Company and the first European settlement in the Puget Sound area, was founded in 1833.",
+            "arguments": {
+                "arg1": "the Hudson's Bay Company",
+                "arg2": "1833",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Black pioneer George Washington Bush and his Caucasian wife, Isabella James Bush, from Missouri and Tennessee, respectively, led four white families into the territory and founded New Market, now Tumwater, in 1846.",
+            "arguments": {
+                "arg1": "New Market",
+                "arg2": "1846",
+                "arg3": "Missouri"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "The creation of Idaho Territory in 1863 established the final eastern border.",
+            "arguments": {
+                "arg1": "Idaho Territory",
+                "arg2": "1863",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington is sometimes referred to as Washington State to distinguish it from Washington, D.C., the capital of the United States.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Mount Rainier, an active stratovolcano, is the state's highest elevation, at almost 14,411 feet (4,392 meters), and is the 2nd topographically prominent mountain in the continental United States, the first being Denali in Alaska.",
+            "arguments": {
+                "arg1": "Denali",
+                "arg2": "Alaska"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Along with Colorado, Washington was one of the first to legalize medicinal and recreational cannabis, was among the first thirty-six states to legalize same-sex marriage, doing so in 2012, and was one of only four U.S. states to have been providing legal abortions on request before the 1973 Supreme Court decision in Roe v. Wade loosened federal abortion laws.",
+            "arguments": {
+                "arg1": "Colorado",
+                "arg2": "Colorado"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Similarly, Washington voters approved a 2008 referendum on legalization of physician-assisted suicide, and is currently only one of five states, along with Oregon, California, Colorado and Vermont, as well as the District of Columbia to have legalized the practice.",
+            "arguments": {
+                "arg1": "Colorado",
+                "arg2": "Colorado"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The British-Spanish Nootka Convention of 1790 ended Spanish claims of exclusivity and opened the Northwest Coast to explorers and traders from other nations, most notably Britain and Russia as well as the fledgling United States.",
+            "arguments": {
+                "arg1": "Russia",
+                "arg2": "Russia"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Black pioneer George Washington Bush and his Caucasian wife, Isabella James Bush, from Missouri and Tennessee, respectively, led four white families into the territory and founded New Market, now Tumwater, in 1846.",
+            "arguments": {
+                "arg1": "Tennessee",
+                "arg2": "Tennessee"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington has a number of seaports on the Pacific Ocean, including Seattle, Tacoma, Kalama, Anacortes, Vancouver, Longview, Greys County, Olympia, and Port Angeles.",
+            "arguments": {
+                "arg1": "Vancouver",
+                "arg2": "Washington"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington is crossed by a number of freight railroads, and Amtrak's passenger Cascade route between Eugene, Oregon and Vancouver, BC is the eighth busiest Amtrak service in the US.",
+            "arguments": {
+                "arg1": "Vancouver",
+                "arg2": "Oregon"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington is crossed by a number of freight railroads, and Amtrak's passenger Cascade route between Eugene, Oregon and Vancouver, BC is the eighth busiest Amtrak service in the US.",
+            "arguments": {
+                "arg1": "Eugene",
+                "arg2": "Washington"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Residents of Vancouver have resisted proposals to extend Portland's mass transit system into Washington.",
+            "arguments": {
+                "arg1": "Vancouver",
+                "arg2": "Washington"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington has not voted for a Republican senator, governor, or presidential candidate since 1994 - tying Delaware for the longest streak in the country.",
+            "arguments": {
+                "arg1": "Delaware",
+                "arg2": "Delaware"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "There are also four Science and Math based high schools: one in the Tri-Cities, Washington, known as Delta, one in Tacoma, Washington, known as SAMI, another in Seattle known as Raisbeck Aviation High School, and one in Redmond, Washington known as Tesla STEM High School.",
+            "arguments": {
+                "arg1": "Seattle",
+                "arg2": "Washington"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The state's nickname, \"The Evergreen State\", was proposed in 1890 by Charles T. Conover of Seattle, Washington.",
+            "arguments": {
+                "arg1": "Seattle",
+                "arg2": "Washington"
+            }
+        }
+    ]
+}

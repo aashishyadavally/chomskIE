@@ -1,0 +1,90 @@
+{
+    "document": "SteveJobs.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "\n\nJobs was born in San Francisco, California, and put up for adoption.",
+            "arguments": {
+                "arg1": "Jobs",
+                "arg2": "",
+                "arg3": "San Francisco"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "\n\nJobs and Wozniak co-founded Apple in 1976 to sell Wozniak's Apple I personal computer.",
+            "arguments": {
+                "arg1": "founded Apple",
+                "arg2": "1976",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Steven Paul Jobs was born on February 24, 1955, to Abdulfattah Jandali and Joanne Schieble, and was adopted by Paul and Clara Jobs (nee Hagopian).",
+            "arguments": {
+                "arg1": "Steven Paul Jobs",
+                "arg2": "February 24, 1955",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Jobs, Wozniak, and Ronald Wayne founded Apple Computer (now called Apple Inc.) in the garage of Jobs's Los Altos home on Crist Drive.",
+            "arguments": {
+                "arg1": "Apple Computer",
+                "arg2": "",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Following his resignation from Apple in 1985, Jobs founded NeXT Inc. with $7 million.",
+            "arguments": {
+                "arg1": "NeXT Inc.",
+                "arg2": "1985",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "But there are a lot of Arabs in Michigan and Wisconsin.",
+            "arguments": {
+                "arg1": "Wisconsin",
+                "arg2": "Wisconsin"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The family lived on a farm in Germantown, Wisconsin.",
+            "arguments": {
+                "arg1": "Wisconsin",
+                "arg2": "Wisconsin"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Later in the year, Jobs enrolled at Reed College in Portland, Oregon.",
+            "arguments": {
+                "arg1": "Portland",
+                "arg2": "Oregon"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In India, they spent a lot of time on bus rides from Delhi to Uttar Pradesh and Himachal Pradesh.",
+            "arguments": {
+                "arg1": "Delhi",
+                "arg2": "India"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In April 2009, Jobs underwent a liver transplant at Methodist University Hospital Transplant Institute in Memphis, Tennessee.",
+            "arguments": {
+                "arg1": "Tennessee",
+                "arg2": "Tennessee"
+            }
+        }
+    ]
+}

@@ -1,0 +1,220 @@
+{
+    "document": "Washington_DC.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "Founded in 1789, Georgetown University features a mix of Romanesque and Gothic Revival architecture.",
+            "arguments": {
+                "arg1": "Georgetown University",
+                "arg2": "1789",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "In addition to the District's own Metropolitan Police Department, many federal law enforcement agencies have jurisdiction in the city as well \u2013 most visibly the U.S. Park Police, founded in 1791.",
+            "arguments": {
+                "arg1": "the District's own Metropolitan Police Department",
+                "arg2": "1791",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "The Marine Barracks near Capitol Hill houses the United States Marine Band; founded in 1798, it is the country's oldest professional musical organization.",
+            "arguments": {
+                "arg1": "The Marine Barracks",
+                "arg2": "1798",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Founded in 1925, the United States Navy Band has its headquarters at the Washington Navy Yard and performs at official events and public concerts around the city.",
+            "arguments": {
+                "arg1": "the Washington Navy Yard",
+                "arg2": "1925",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Founded in 1950, Arena Stage achieved national attention and spurred growth in the city's independent theater movement that now includes organizations such as the Shakespeare Theatre Company, Woolly Mammoth Theatre Company, and the Studio Theatre.",
+            "arguments": {
+                "arg1": "the Shakespeare Theatre Company",
+                "arg2": "1950",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "The GALA Hispanic Theatre, now housed in the historic Tivoli Theatre in Columbia Heights, was founded in 1976 and is a National Center for the Latino Performing Arts.",
+            "arguments": {
+                "arg1": "The GALA Hispanic Theatre",
+                "arg2": "1976",
+                "arg3": "Columbia Heights"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "The Washington Post, founded in 1877, is the oldest and most-read local daily newspaper in Washington.",
+            "arguments": {
+                "arg1": "The Washington Post",
+                "arg2": "1877",
+                "arg3": "Washington"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington, D.C., formally the District of Columbia and commonly referred to as Washington or D.C., is the capital of the United States.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington, D.C. is located in the mid-Atlantic region of the U.S. East Coast.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Chesapeake and Ohio Canal starts in Georgetown and was used during the 19th century to bypass the Little Falls of the Potomac River, located at the northwest edge of Washington at the Atlantic Seaboard fall line.",
+            "arguments": {
+                "arg1": "Georgetown",
+                "arg2": "Washington"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "This factor contributed to Washington, D.C., being ranked as third in the nation for park access and quality in the 2018 ParkScore ranking of the park systems of the 100 most populous cities in the United States, according to the nonprofit Trust for Public Land.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington, D.C. is a planned city.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "According to 2017 Census Bureau data, the population of Washington, D.C., was 47.1% Black or African American, 45.1% White (36.8% non-Hispanic White), 4.3% Asian, 0.6% American Indian or Alaska Native, and 0.1% Native Hawaiian or Other Pacific Islander.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Crime in Washington, D.C., is concentrated in areas associated with poverty, drug abuse, and gangs.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In December 2017, 25% of the employees in Washington, D.C., were employed by a federal governmental agency.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "This is thought to immunize Washington, D.C., to national economic downturns because the federal government continues operations even during recessions.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Many organizations such as law firms, defense contractors, civilian contractors, nonprofit organizations, lobbying firms, trade unions, industry trade groups, and professional associations have their headquarters in or near Washington, D.C., in order to be close to the federal government.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Smithsonian Institution is an educational foundation chartered by Congress in 1846 that maintains most of the nation's official museums and galleries in Washington, D.C. The U.S. government partially funds the Smithsonian and its collections are open to the public free of charge.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington, D.C., is a national center for the arts.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington, D.C., is a prominent center for national and international media.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington, D.C., observes all federal holidays and also celebrates Emancipation Day on April 16, which commemorates the end of slavery in the District.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The flag of Washington, D.C., was adopted in 1938 and is a variation on George Washington's family coat of arms.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington, D.C. is overwhelmingly Democratic, having voted for the Democratic candidate solidly since 1964.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Assisted suicide is also permitted in the district, with a bill legalizing the practice being introduced in 2015, signed by mayor Muriel Bowser in 2016 and going into effect in 2017, making Washington, D.C. the seventh jurisdiction in the United States to have legalized assisted suicide, along with Washington, Oregon, California, Colorado, Hawaii, Montana and Vermont.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Assisted suicide is also permitted in the district, with a bill legalizing the practice being introduced in 2015, signed by mayor Muriel Bowser in 2016 and going into effect in 2017, making Washington, D.C. the seventh jurisdiction in the United States to have legalized assisted suicide, along with Washington, Oregon, California, Colorado, Hawaii, Montana and Vermont.",
+            "arguments": {
+                "arg1": "Colorado",
+                "arg2": "Colorado"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Washington, D.C., has fourteen official sister city agreements.",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        }
+    ]
+}

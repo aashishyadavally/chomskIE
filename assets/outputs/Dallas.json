@@ -1,0 +1,210 @@
+{
+    "document": "Dallas.txt",
+    "extraction": [
+        {
+            "template": "BORN",
+            "sentences": "In addition, there are several Unitarian Universalist congregations, including First Unitarian Church of Dallas, founded in 1903.",
+            "arguments": {
+                "arg1": "First Unitarian Church",
+                "arg2": "1903",
+                "arg3": "Dallas"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "The Dallas Magpies, founded in 1998, compete in the United States Australian Football League.",
+            "arguments": {
+                "arg1": "The Dallas Magpies",
+                "arg2": "1998",
+                "arg3": "the United States Australian Football League"
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "SMU was founded in 1911 by the Southern Methodist Church, and is now run by R. Gerald Turner.",
+            "arguments": {
+                "arg1": "SMU",
+                "arg2": "1911",
+                "arg3": ""
+            }
+        },
+        {
+            "template": "BORN",
+            "sentences": "Dallas Christian College (DCC) in Farmers Branch\nArlington Baptist College\nCollin College in Collin County\nRemington College in Garland, Texas, established in July 1997\n",
+            "arguments": {
+                "arg1": "Dallas Christian College",
+                "arg2": "July 1997",
+                "arg3": "Collin County"
+            }
+        },
+        {
+            "template": "ACQUIRE",
+            "sentences": "The Oak Cliff Transit Authority took the lead with leaders envisioning a streetcar line that would link Union Station and the Dallas Convention Center in downtown to Oak Cliff, Methodist Medical Center, and the Bishop Arts District via the Houston Street Viaduct.",
+            "arguments": {
+                "arg1": "The Oak Cliff Transit Authority",
+                "arg2": "the Bishop Arts District",
+                "arg3": "_"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Dallas (), officially the City of Dallas, is a city in the U.S. state of Texas and the seat of Dallas County, with portions extending into Collin, Denton, Kaufman and Rockwall counties.",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "With an estimated 2017 population of 1,341,075, it is the ninth most-populous city in the U.S. and third in Texas after Houston and San Antonio.",
+            "arguments": {
+                "arg1": "Houston",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The official historical marker states it was named after Vice President George M. Dallas of Philadelphia, Pennsylvania.",
+            "arguments": {
+                "arg1": "Pennsylvania",
+                "arg2": "Pennsylvania"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Praetorian Building in Dallas of 15 stories, built in 1909, was the first skyscraper west of the Mississippi and the tallest building in Texas for some time.",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In sum, extremes and variations in winter weather are more readily seen in Dallas and Texas as a whole than along the Pacific and Atlantic coasts, due to the state's location in the interior of the North American continent.",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Dallas is the ninth most-populous city in the United States and third in Texas after the cities of Houston and San Antonio.",
+            "arguments": {
+                "arg1": "Houston",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "With that in mind, Dallas's violent crime rate (12.06 per 1,000 people) is lower than St Louis (24.81), Detroit (24.22), Baltimore (16.96), Philadelphia (15.62), Cleveland (15.47), Miami (15.09), Washington, D.C. (14.48), Kansas City (14.44) and Boston (13.39).",
+            "arguments": {
+                "arg1": "Washington",
+                "arg2": "D.C."
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "By 1925 Texas churned out more than \u2153 of the nation's cotton crop, with 31% of Texas cotton produced within a 100-mile (160 km) radius of Dallas.",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In the 1930s petroleum was discovered east of Dallas near Kilgore, Texas.",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Corridor is home to more than 5,700 companies including Texas Instruments (headquartered in Dallas), Nortel Networks, Alcatel Lucent, AT&T, Ericsson, Fujitsu, Nokia, Rockwell Collins, Cisco Systems, Sprint, Verizon Communications, XO Communications and until recently CompUSA (which is now headquartered in Miami, Florida).",
+            "arguments": {
+                "arg1": "Miami",
+                "arg2": "Florida"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "In October 2016, Jacobs Engineering, one of the world's largest engineering companies, relocated from Pasadena, California to Downtown Dallas.",
+            "arguments": {
+                "arg1": "Pasadena",
+                "arg2": "California"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Dallas is home of the two other major malls in North Texas, the Dallas Galleria and NorthPark Center, which is the 2nd largest mall in Texas.",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The most notable event held in Dallas is the State Fair of Texas, which has been held annually at Fair Park since 1886.",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "The Dallas Sidekicks (2012) are an American professional indoor soccer team based in Allen, Texas, a suburb of Dallas.",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Rugby union is a developing sport in Dallas as well as the whole of Texas.",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Named after its former railroad name, the Missouri-Kansas-Texas Railroad (or \"MKT\" Railroad), the 3.5-mile stretch of railroad was purchased by the City of Dallas and transformed into the city's premier trail.",
+            "arguments": {
+                "arg1": "Kansas",
+                "arg2": "Kansas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Originally located in Waco, Texas, it moved to Dallas in 1990 and is housed on the campus of the former Bishop College, another private, historically black college.",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Originally in Decatur, Texas, the school moved to Dallas in 1965.",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Remington College in Garland, Texas, established in July 1997",
+            "arguments": {
+                "arg1": "Garland",
+                "arg2": "Texas"
+            }
+        },
+        {
+            "template": "PART",
+            "sentences": "Most people in the city of Dallas are within the Dallas Independent School District, the 12th-largest school district in the United States and second largest in Texas.",
+            "arguments": {
+                "arg1": "Dallas",
+                "arg2": "Texas"
+            }
+        }
+    ]
+}
